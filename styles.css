@@ -59,6 +59,18 @@ main {
 
 main h1 {
     text-align: center;
+    font-size: 8rem;
+    font-weight: 900;
+    letter-spacing: 5px;
+    line-height: 1;
+    background-image: linear-gradient(rgb(133,133,133), rgb(255,255,255));
+    color: transparent;
+    background-clip: text;
+    display: none;
+}
+
+main h2 {
+    text-align: center;
     font-size: 12rem;
     font-weight: 900;
     letter-spacing: 5px;
@@ -138,4 +150,64 @@ main h1 {
         top: 90%;
     }
 
+}
+
+/* 3d Robot */
+
+.robot-3d {
+    position: absolute;
+    top: -20%;
+    right: -14%;
+    width: 130%;
+    height: 130%;
+}
+
+@media (max-width: 1400px) {
+    main h1{
+        font-size: 6.3rem;
+        letter-spacing: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    main h1 {
+        display: none;
+    }
+
+    main h2 {
+        display: block;
+        margin-top: -3rem;
+    }
+
+    .bio-section {
+        margin-bottom: 1rem;
+    }
+
+    .bio {
+        font-size: 0.8 rem;
+        max-width: 15rem;
+    }
+
+    .location p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 1rem;
+    }
+
+    main h2 {
+        font-size: 6rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .contact-btn {
+        padding: 0.4rem 1.5rem;
+        font-size: 0.9rem;
+    }
 }
