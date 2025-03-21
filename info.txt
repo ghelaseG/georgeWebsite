@@ -1,0 +1,18 @@
+scroll effect: scroll trigger by gsap and use scroll by framer motion with smooth scroll (lenis scroll or locomotive scrollv) and parallex scroll
+
+
+viewport detection: we can use intersection observer api or use scrollTriger gsap or useIn View framer 
+
+
+sticky position: css
+
+
+easing and motion design
+
+
+text splitting: gsap split text or use splittype 
+
+
+
+
+
