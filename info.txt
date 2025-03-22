@@ -13,6 +13,21 @@ easing and motion design
 text splitting: gsap split text or use splittype 
 
 
+scrollytelling
 
+back and forth - up and right
 
+Gradient customise website:
+cssgradient.io
+
+3d content website:
+spline.design
+
+1st concept taken from:
+
+3d style info to use gsap or parallax animation:
+Notes: it takes 7 second to make an impression
+
+Best websites link: 
+https://www.awwwards.com/websites/
 
