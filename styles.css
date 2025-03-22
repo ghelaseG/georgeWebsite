@@ -1,3 +1,4 @@
+/* using a gradient background */
 body{
     background: rgb(29,40,41);
     background: -moz-linear-gradient(90deg, rgba(29,40,41,1) 0%, rgba(24,30,31,1) 11%, rgba(19,19,20,1) 41%, rgba(19,19,20,1) 58%, rgba(24,30,31,1) 85%, rgba(29,40,41,1) 100%);
@@ -7,14 +8,16 @@ body{
     color: white;
     padding: 3rem;
     }
-
+/* reset the default style from the browser */ 
 * {
     margin: 0;
     padding: 0;
+    /* here we prevent any layout issues */
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
 
+/* we then style the header */
 header {
     display: flex;
     justify-content: space-between;
@@ -22,12 +25,14 @@ header {
     padding-bottom: 2rem;
 }
 
+/* styling the logo */
 .logo {
     font-size: 1.5rem;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
+/*we style the contact button */
 .contact-btn {
     padding: 0.5rem 2rem;
     font-size: 1rem;
@@ -39,6 +44,7 @@ header {
     transition: 0.3s;
 }
 
+/* here's the hover effect */
 .contact-btn:hover {
     background-color: #76b0ab37;
 }
@@ -53,10 +59,12 @@ main {
     min-height: 85vh;
 }
 
+/* title section */
 .title-section {
     margin-top: 3rem;
 }
 
+/* style the h1 or main section */
 main h1 {
     text-align: center;
     font-size: 8rem;
@@ -69,6 +77,7 @@ main h1 {
     display: none;
 }
 
+/* style the h2 or main section */
 main h2 {
     text-align: center;
     font-size: 12rem;
@@ -80,6 +89,7 @@ main h2 {
     background-clip: text;
 }
 
+/*location section*/
 .location {
     margin-top: 2rem;
     display: flex;
@@ -87,6 +97,7 @@ main h2 {
     align-items: flex-start;
 }
 
+/*gradient design*/
 .location p {
     background-image: linear-gradient(to right, #76b0ab, #ffffff, #842626);
     color: transparent;
@@ -94,11 +105,13 @@ main h2 {
     font-size: 1.5rem;
 }
 
+/* styling the bio section */
 .bio-section {
     margin-top: auto;
     margin-bottom: 2rem;
 }
 
+/* styling the bio section */ 
 .bio {
     font-size: 1rem;
     line-height: 1.6;
@@ -107,6 +120,7 @@ main h2 {
     max-width: 22rem;
 }
 
+/* styling the scroll down effect */
 .scroll-down {
     height: 5rem;
     width: 2rem;
@@ -118,6 +132,7 @@ main h2 {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
+/* add the arrows inside the scroll button */
 .scroll-down::before,
 .scroll-down::after {
     content: "";
@@ -130,14 +145,17 @@ main h2 {
     border: 2px solid lightgray;
     border-top: transparent;
     border-left: transparent;
+    /* animate the arrows */
     animation: scroll-down 3s ease-in-out infinite;
 }
 
+/* make the arrow stuck on top of each other */
 .scroll-down::before {
     top: 30%;
     animation-delay: 0.8s;
 }
 
+/* keyframe for the scroll down animation */ 
 @keyframes scroll-down {
     0% {
         opacity: 0;
@@ -152,8 +170,7 @@ main h2 {
 
 }
 
-/* 3d Robot */
-
+/* 3D Robot */
 .robot-3d {
     position: sticky;
     top: -20%;
@@ -162,6 +179,7 @@ main h2 {
     height: 130%;
 }
 
+/* make the 3d element responsive for different screen sizes */
 @media (max-width: 1400px) {
     main h1{
         font-size: 6.3rem;
@@ -169,6 +187,7 @@ main h2 {
     }
 }
 
+/* this media querry is for smaller screens */
 @media (max-width: 768px) {
     main h1 {
         display: none;
@@ -193,6 +212,7 @@ main h2 {
     }
 }
 
+/*normal phone size */
 @media (max-width: 480px) {
     body {
         padding: 1rem;

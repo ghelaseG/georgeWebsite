@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--  -->    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Georgian Ghelase</title>
+    <!-- we linked the css file inside the head section--> 
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- header section-->
     <header>
         <div class="logo">GeorgeWebsite</div>
         <button class="contact-btn">Contact</button>
@@ -19,27 +22,29 @@
             </ul>
           </li>
     </header>
-
+    <!-- here we work on the main contact section -->
     <main>
         <div class="title-section">
+            <!-- the main heading -->
             <h1>DATA SCIENTIST</h1>
+            <!-- we use the h2 for smaller screen sizes-->
             <h2>DATA SCIENTIST</h2>
             <div class="location">
                 <p>BASED<br>IN<br>LONDON</p>
             </div>
         </div>
-
+        <!-- bio section text -->
         <div class="bio-section">
             <p class="bio">
                 With over <b>3 years</b> of experience, I specialise in exploring data, <span style="color: #76b0ab;">Statistical Tools</span></b> and <b><span style="color: #76b0ab">Predictive Analytics</span>.
             </p>
         </div>
-
+        <!-- scroll down button -->
         <div class="scroll-down"></div>
-
+        <!-- Spline 3d: this is a custom html tag provided by spline which act as a container for displaying the 3d model, and allows for interaction within the webpage -->
         <spline-viewer class="robot-3d" url="https://prod.spline.design/BHXT0EMjxGZ3SMtB/scene.splinecode"></spline-viewer>
     </main>
-
+    <!-- the script element is responsible for loading the view library from an external source, this make sure the 3d element works correctly-->
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.79/build/spline-viewer.js"></script>
     
 
