@@ -39,6 +39,8 @@ main {
     overflow: hidden;
 }
 
+
+
 .bg-img {
     position: absolute;
     width: 2800px;
@@ -113,9 +115,107 @@ main {
 
 .robot-3d {
     position: absolute;
-    z-index: 9;
+    z-index: 21;
     top: 10%;
     width: 90%;
     height: 92%;
     transform: translate(-2%, 2%);
+}
+
+.mountain-6 {
+    position: absolute;
+    z-index: 10;
+    width: 383.5px;
+    top: calc(50% + 86.5px);
+    left: calc(50% + 590px);
+    transform: translate(-50%, -50%);
+}
+
+.fog-4 {
+    position: absolute;
+    z-index: 11;
+    width: 590px;
+    top: calc(50% + 242px);
+    left: calc(50% - 64px);
+    transform: translate(-50%, -50%);
+}
+
+.mountain-5 {
+    position: absolute;
+    z-index: 12;
+    width: 583px;
+    top: calc(50% + 269px);
+    left: calc(50% + 130px);
+    transform: translate(-50%, -50%);
+}
+
+.fog-5 {
+    position: absolute;
+    z-index: 13;
+    width: 1435px;
+    top: calc(50% + 149px);
+    left: calc(50% - 28px);
+    transform: translate(-2%, 2%);
+}
+
+.mountain-4 {
+    position: absolute;
+    z-index: 14;
+    width: 717px;
+    top: calc(50% + 221px);
+    left: calc(50% - 381.5px);
+    transform: translate(-2%, 2%);
+}
+
+.mountain-3 {
+    position: absolute;
+    z-index: 15;
+    width: 419px;
+    top: calc(50% + 133px);
+    left: calc(50% + 736px);
+    transform: translate(-2%, 2%);
+}
+
+.fog-6 {
+    position: absolute;
+    z-index: 16;
+    width: 1418px;
+    top: calc(50% + 177px);
+    left: calc(50% - 30px);
+    transform: translate(-2%, 2%);
+}
+
+.mountain-2 {
+    position: absolute;
+    z-index: 17;
+    width: 625px;
+    top: calc(50% + 188px);
+    left: calc(50% + 412px);
+    transform: translate(-50%, -50%);
+}
+
+.mountain-1 {
+    position: absolute;
+    z-index: 18;
+    width: 515px;
+    top: calc(50% + 91.5px);
+    left: calc(50% - 601px);
+    transform: translate(-50%, -50%);
+}
+
+.black-shadow {
+    position: absolute;
+    z-index: 19;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.fog-1 {
+    position: absolute;
+    z-index: 20;
+    width: 1600px;
+    top: calc(100% - 355px);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
