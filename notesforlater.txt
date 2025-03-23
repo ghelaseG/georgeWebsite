@@ -1,0 +1,19 @@
+<i class="fa-solid fa-music"></i>  (music icon)
+
+https://fontawesome.com/icons/play?f=classic&s=solid (play icon)
+
+<ul>
+                <li class="sound">
+                    <a href="#">
+                        <i class="fa-solid fa-volume-off"></i>
+                    </a>
+                </li>
+                <li class="hamburger">
+                    <a href="#">
+                        <div class="bar">
+
+                        </div>
+                    </a>
+                </li>
+            </ul>
+

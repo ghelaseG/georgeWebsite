@@ -36,3 +36,17 @@ https://stacksorted.com/scroll-effects
 
 react three fiber:
 https://r3f.docs.pmnd.rs/getting-started/introduction
+
+
+icons: 
+https://fontawesome.com/
+
+https://cdnjs.com/libraries/font-awesome
+
+https://fonts.google.com/
+
+
+https://github.com/sefyudem/3D-Parallax-Website-in-JavaScript
+
+
+
