@@ -39,7 +39,10 @@ main {
     overflow: hidden;
 }
 
-
+.parallax {
+    pointer-events: none;
+    transition: 0.45s;
+}
 
 .bg-img {
     position: absolute;
@@ -115,11 +118,12 @@ main {
 
 .robot-3d {
     position: absolute;
-    z-index: 21;
+    z-index: 5;
     top: 10%;
     width: 90%;
     height: 92%;
     transform: translate(-2%, 2%);
+    pointer-events: all;
 }
 
 .mountain-6 {
@@ -217,5 +221,4 @@ main {
     width: 1600px;
     top: calc(100% - 355px);
     left: 50%;
-    transform: translate(-50%, -50%);
 }
