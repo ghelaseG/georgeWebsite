@@ -33,3 +33,6 @@ https://www.awwwards.com/websites/
 
 inspiration website:
 https://stacksorted.com/scroll-effects
+
+react three fiber:
+https://r3f.docs.pmnd.rs/getting-started/introduction
