@@ -1,15 +1,14 @@
-/* const parallax_el = document.querySelectorAll(".parallax");
+/* GSAP Animation */
+const parallax_el = document.querySelectorAll(".parallax");
 
-let xValue = 0, yValue = 0;
+let timeline = gsap.timeline();
 
-window.addEventListener("mousemove", (e) => {
-    xValue = e.clientX - window.innerWidth / 2;
-    yValue = e.clientY - window.innerHeight / 2;
+timeline.from(".bg-img", {
+    top: "200px",
+    duration : 2.65,
+});
 
-    parallax_el.forEach((el) => {
-        let speedx = el.CDATA_SECTION_NODE.speedx;
-        let speedy = el.CDATA_SECTION_NODE.speedy;
-
-        el.computedStyleMap.transform = `translateX(calc(-50% + ${-xValue * speedx}px) translateY(calc(-50% + ${yValue * speedy}px))`;
-    });
-}); */
+// timeline.to(".fog-6", {
+//     top: "600px",
+//     duration: 2.65,
+// });
