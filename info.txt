@@ -31,3 +31,5 @@ Notes: it takes 7 second to make an impression
 Best websites link: 
 https://www.awwwards.com/websites/
 
+inspiration website:
+https://stacksorted.com/scroll-effects
