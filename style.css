@@ -186,7 +186,7 @@ main {
     width: 1418px;
     top: calc(50% + 177px);
     left: calc(50% - 30px);
-    transform: translate(-2%, 2%);
+    transform: translate(-2%, -10%);
 }
 
 .mountain-2 {
@@ -204,7 +204,7 @@ main {
     width: 515px;
     top: calc(50% + 91.5px);
     left: calc(50% - 601px);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -10%);
 }
 
 .black-shadow {
@@ -213,6 +213,7 @@ main {
     bottom: 0;
     right: 0;
     width: 100%;
+    pointer-events: none;
 }
 
 .fog-1 {

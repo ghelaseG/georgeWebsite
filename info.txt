@@ -46,7 +46,12 @@ https://cdnjs.com/libraries/font-awesome
 https://fonts.google.com/
 
 
-https://github.com/sefyudem/3D-Parallax-Website-in-JavaScript
+background idea: https://github.com/sefyudem/3D-Parallax-Website-in-JavaScript & https://www.youtube.com/watch?v=Yo3j_Dx4u7c&ab_channel=TrueCoder
+
+robot from spline: https://app.spline.design/file/4fce304e-97d3-4753-a0f3-27ff47c139f7
+
+
+
 
 
 
