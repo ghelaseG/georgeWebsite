@@ -52,8 +52,5 @@ robot from spline: https://app.spline.design/file/4fce304e-97d3-4753-a0f3-27ff47
 
 gsap: https://gsap.com/ (animation)
 
-
-
-
-
+great for 3d: https://www.youtube.com/@javascriptmastery
 
