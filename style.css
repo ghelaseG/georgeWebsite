@@ -8,11 +8,9 @@
 }
 
 body{
-    display: flex;
+    display:grid;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(45deg, #785686, #12ffb0);
     font-family: "Poppins", sans-serif;
 }
 
@@ -24,7 +22,9 @@ header {
 }
 
 .menu {
-    position: relative;
+    position: absolute;
+    top: -435px;
+    left: 1320px;
     width: 200px;
     height: 200px;
     display: flex;

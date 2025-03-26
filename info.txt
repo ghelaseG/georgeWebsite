@@ -54,3 +54,5 @@ gsap: https://gsap.com/ (animation)
 
 great for 3d: https://www.youtube.com/@javascriptmastery
 
+freeicons: https://ionic.io/ionicons
+
