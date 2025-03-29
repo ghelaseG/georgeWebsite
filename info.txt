@@ -57,3 +57,5 @@ great for 3d: https://www.youtube.com/@javascriptmastery
 freeicons: https://ionic.io/ionicons
 
 https://fontawesome.com/
+
+change pic size: https://www.simpleimageresizer.com/
