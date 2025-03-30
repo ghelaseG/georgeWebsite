@@ -223,16 +223,6 @@ main {
     transform: translate(-50%, -50%);
 }
 
-
-{
-    position: absolute;
-    z-index: 18;
-    width: 515px;
-    top: calc(50% + 91.5px);
-    left: calc(50% - 601px);
-    transform: translate(-50%, -10%);
-}
-
 .mountain-5 {
     position: absolute;
     z-index: 1;
@@ -300,8 +290,6 @@ main {
     left: calc(50% - 30px);
     transform: translate(-2%, -10%);
 }
-
-
 
 .black-shadow {
     position: absolute;
