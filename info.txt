@@ -61,3 +61,7 @@ https://fontawesome.com/
 change pic size: https://www.simpleimageresizer.com/
 
 clip-path: https://bennettfeely.com/clippy/
+
+https://github.com/shrenik-jain/shrenik-jain.github.io/blob/master/index.html
+
+check website for errors: https://validator.w3.org/
