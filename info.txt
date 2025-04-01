@@ -69,3 +69,5 @@ check website for errors: https://validator.w3.org/
 https://simpleicons.org/
 
 https://css-tricks.com/
+
+https://gsap.com/docs/v3/Plugins/ScrollTrigger/?page=1 - for about me page
