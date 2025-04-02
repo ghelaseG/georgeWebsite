@@ -22,9 +22,10 @@ header {
 }
 
 .menu {
-    position: absolute;
-    top: -435px;
-    left: 1320px;
+    position: fixed;
+    margin: 1px;
+    top: 2%;
+    right: 6%;
     width: 200px;
     height: 200px;
     display: flex;
@@ -33,10 +34,12 @@ header {
 }
 
 .menu li {
-    position: absolute;
-    left: 0;
+    position: fixed;
+    margin: 1px;
+    top: 2%;
+    right: 6%;  
     list-style: none;
-    transform-origin: 100px;
+    transform-origin: 85px 55px;
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
     transform: rotate(0deg) translateX(70px);
@@ -49,6 +52,11 @@ header {
 }
 
 .menu li a {
+    position: fixed;
+    margin-top: -70px;
+    margin-left: -30px;
+    top: 1.8cm;
+    left: -0.6cm;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,6 +131,9 @@ header {
 
 .toggle {
     position: fixed;
+    margin: 1px;
+    top: 1%;
+    right: 1%;
     width: 60px;
     height: 60px;
     background-color: azure;
@@ -152,6 +163,7 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
     color:azure;
+    cursor: default;
     font-family: Georgia, 'Times New Roman', Times, serif;
     transform: translate(20%, 20%);
     font-weight: bold;
