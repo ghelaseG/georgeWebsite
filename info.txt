@@ -26,7 +26,7 @@ spline.design
 1st concept taken from:
 
 3d style info to use gsap or parallax animation:
-Notes: it takes 7 second to make an impression
+Notes: it takes 7 seconds to make an impression
 
 Best websites link: 
 https://www.awwwards.com/websites/
