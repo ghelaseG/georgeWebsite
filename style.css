@@ -23,11 +23,10 @@ header {
 
 .menu {
     position: fixed;
-    top: -435px;
-    left: 1320px;
-    width: 100px;
-    height: 100px;
-    background: red;
+    top: 2%;
+    left: 22%;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,11 +34,9 @@ header {
 
 .menu li {
     position: fixed;
-    margin: 1px;
-    top: 2%;
-    right: 6%;  
+    right: 5.4em;
     list-style: none;
-    transform-origin: 100px;
+    transform-origin: 110px;
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
     transform: rotate(0deg) translateX(70px);
@@ -52,7 +49,6 @@ header {
 }
 
 .menu li a {
-    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
