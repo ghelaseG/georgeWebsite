@@ -348,3 +348,9 @@ main {
     top: calc(100% - 355px);
     left: 50%;
 }
+
+@media (max-width: 1100px){
+    .text h1{
+        font
+    }
+}
