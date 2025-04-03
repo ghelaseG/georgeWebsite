@@ -71,3 +71,6 @@ https://simpleicons.org/
 https://css-tricks.com/
 
 https://gsap.com/docs/v3/Plugins/ScrollTrigger/?page=1 - for about me page
+
+useful website for playing video on scroll: https://codepen.io/marduklien/pen/MdvdEG
+
