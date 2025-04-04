@@ -349,8 +349,28 @@ main {
     left: 50%;
 }
 
-@media (max-width: 1100px){
-    .text h1{
-        font
+@media (max-width: 500px){
+    .logo {
+        font-size: 0.83rem;
+    }
+    .home a {
+        position: fixed;
+        font-size: 1.8rem;
+        margin: 3px;
+        top: 2%;
+        right: 29%;
+    }
+}
+
+@media (max-width: 400px){
+    .logo {
+        font-size: 0.63rem;
+    }
+    .home a {
+        position: fixed;
+        font-size: 1.8rem;
+        margin: 3px;
+        top: 2%;
+        right: 39%;
     }
 }
