@@ -290,6 +290,7 @@ main {
     left: calc(50% - 601px);
     transform: translate(-50%, -10%);
 }
+
 .robot-3d {
     position: absolute;
     z-index: 5;
@@ -299,8 +300,6 @@ main {
     transform: translate(-2%, 2%);
     pointer-events: all;
 }
-
-
 
 .fog-4 {
     position: absolute;
@@ -360,6 +359,16 @@ main {
         top: 2%;
         right: 29%;
     }
+
+    .robot-3d {
+        position: absolute;
+        z-index: 5;
+        top: 10%;
+        width: 100%;
+        height: 92%;
+        transform: translate(-2%, 2%);
+        pointer-events: all; 
+    }
 }
 
 @media (max-width: 400px){
@@ -373,4 +382,5 @@ main {
         top: 2%;
         right: 39%;
     }
+
 }
