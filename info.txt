@@ -80,3 +80,6 @@ GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScri
 For the best experience with GitHub Pages and your website, GitHub recommends using the latest versions of Chrome, Edge, Firefox, or Safari.
 
 https://cdnjs.com/libraries/gsap
+
+https://cssgradient.io/
+
