@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
 
+/* text animation */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 } 
 
@@ -12,6 +11,8 @@ html, body {
     min-height: 400vh;
     background: #0f0f0f;
     font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -61,4 +62,73 @@ img {
 .website-content-wrapper {
     width: 70%;
     margin: 0 auto;
+}
+
+/* scroll trigger animation */
+
+.smooth-scroller {
+    overflow: hidden;
+}
+
+.hero-scroller {
+    height: 250vh;
+    overflow: hidden;
+}
+
+.section {
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    padding: 50px;
+    justify-content: center;
+}
+
+.copy {
+    background: #d4cfc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-wrapper {
+    max-width: 1400px;
+}
+
+.content {
+    width: 100%;
+    max-width: 840px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 180px;
+    font-weight: 400;
+    line-height: 150px;
+    margin: 0;
+    text-transform: uppercase;
+    color: azure;
+}
+
+.image-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 50%;
+}
+
+.image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+p {
+    font-size: 4em;
+    line-height: 1.2em;
 }

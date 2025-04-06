@@ -83,3 +83,5 @@ https://cdnjs.com/libraries/gsap
 
 https://cssgradient.io/
 
+https://gsap.com/docs/v3/Plugins/ScrollTrigger/?page=1
+
