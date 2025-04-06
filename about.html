@@ -7,52 +7,51 @@
     <link rel="stylesheet" href="styles1.css">
 </head>
 <body>
-    <div class="container">
-        <div class="nav">
-            <div class="logo"><h2>George's Website</h2>
-                <a href="#">About Me</a>
-                <div class="logo-revealer"></div>
-            </div>
-        </div>  
-    </div>
-
     <div class="header">
         <div class="letter">
-            <img src="./assets/letters/letterA.png" alt="">
+            <img src="./assets/letters/plain.png" alt="">
         </div>
         <div class="letter">
-            <img src="./assets/letters/letterB.png" alt="">
+            <img src="./assets/letters/A.png" alt="">
         </div>
         <div class="letter">
-            <img src="./assets/letters/letterO.png" alt="">
+            <img src="./assets/letters/B.png" alt="">
         </div>
         <div class="letter">
-            <img src="./assets/letters/letterU.png" alt="">
+            <img src="./assets/letters/O.png" alt="">
         </div>
         <div class="letter">
-            <img src="./assets/letters/letterT.png" alt="">
+            <img src="./assets/letters/U.png" alt="">
         </div>
         <div class="letter">
-            <img src="./assets/letters/letterM.png" alt="">
+            <img src="./assets/letters/T.png" alt="">
         </div>
         <div class="letter">
-            <img src="./assets/letters/letterE.png" alt="">
+            <img src="./assets/letters/plain.png" alt="">
+        </div>
+        <div class="letter">
+            <img src="./assets/letters/M.png" alt="">
+        </div>
+        <div class="letter">
+            <img src="./assets/letters/E.png" alt="">
+        </div>
+        <div class="letter">
+            <img src="./assets/letters/plain.png" alt="">
         </div>
     </div>
 
     <div class="website-content">
         <div class="website=content-wrapper">
-
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
     <script>
         const header = document.querySelector(".header");
         const letters = document.querySelectorAll(".letter");
-        const logo = document.querySelector(".logo a");
         const websiteContent = document.querySelector(".website-content");
 
         let lastScroll = 0;
+
         const sectionHeight = 150;
 
         window.addEventListener("scroll", () => {
@@ -65,7 +64,6 @@
                 websiteContent.style.position = "absolute";
                 websiteContent.style.top = "900px";
             }
-
             const orderPairs = [
                 [4, 5],
                 [3, 6],
@@ -74,15 +72,14 @@
                 [0, 9],
             ];
 
-            orderPairs.forEach(pair, orderIndex) => {
+            orderPairs.forEach((pair, orderIndex) => {
                 const startScroll = sectionHeight * orderIndex;
 
-                if (scrollY >- startScroll) {
-                    const moveFactor = Math.min{
+                if (scrollY >= startScroll) {
+                    const moveFactor = Math.min(
                         1,
                         (scrollY - startScroll) / sectionHeight
-                    };
-
+                    );
                     const translateY = -moveFactor * header.offsetHeight;
 
                     pair.forEach((idx) => {
@@ -96,45 +93,16 @@
                     pair.forEach((idx) => {
                         const letter = letters[idx];
                         gsap.to(letter, {
-                            y:0,
+                            y: 0,
                             zIndex: 1,
                         });
                     });
                 }
             });
         
-
         const buffer = 50;
 
-        if(
-            scrollY >= orderPairs.length * sectionHeight + buffer &&
-            !gsap.isTweening(logo)
-        ) {
-            gsap.to(logo, {
-                top: "0px",
-                ease: "power1.out",
-                overwrite: true,
-            });
-
-            gsap.to(".logo-revealer", {
-                scaleY: 0,
-                overwrite: true,
-            });
-        } else if(
-            scrollY <= (orderPairs.length - 1) * sectionHeight &&
-            !gsap.isTweening(logo)
-        ) {
-            gsap.to(logo, {
-                top: "20px",
-                ease: "power1.out",
-                overwrite: true,
-            })
-
-            gsap.to(".logo-revealer", {
-                scaleY: 1,
-                overwrite: true,
-            })
-        }
         lastScroll = scrollY;
+    });
     </script>
 </body>
