@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Georgian Ghelase</title>
-    <link rel="stylesheet" href="styles1.css">
-</head>
- 
-<body>
-<!-- text animation -->
-    <div class="header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explode Text On Scroll | Codegrid</title>
+    <link rel="stylesheet" href="styles1.css" />
+  </head>
+  <body>
+    <section class="intro">
+      <div class="header">
         <div class="letter">
             <img src="./assets/letters/plain.png" alt="">
         </div>
@@ -46,95 +45,87 @@
         <div class="website=content-wrapper">
         </div>
     </div>
-
-    <!-- scroll trigger animation-->
-        <div class="smooth-scroll">
-            <div class="hero-scroller">
-                <div class="section">
-                    <div class="section-wrapper">
-                        <div class="content">
-                            <h1 class="hero-header h-1"></h1>
-                            <h1 class="hero-header h-1">Data Scientist</h1>
-                        </div>
-                        <div class="pin-wrapper">
-                            <div class="image-wrapper" id=""heroImage">
-                                <img src="./assets/about/1723487075990.jpeg" alt="" class="image2">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section copy">
-                <div class="section-wrapper">
-                    <div class="content">
-                        <p class="anime-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, mollitia vel architecto culpa repellat accusamus quod provident velit! A, ea unde in sapiente odio delectus vero. Minus velit dolor dolores.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <script type="module" src="./js/script1.js"></script>
-
+    </section>
+    <section class="sticky">
+      <p>
+        I am Georgian Ghelase, a Data Scientist with a passion for scientific computing, applied mathematics and visualisation.
+        I am Georgian Ghelase, a Data Scientist with a passion for scientific computing, applied mathematics and visualisation.
+        I am Georgian Ghelase, a Data Scientist with a passion for scientific computing, applied mathematics and visualisation.
+        I am Georgian Ghelase, a Data Scientist with a passion for scientific computing, applied mathematics and visualisation.
+        I am Georgian Ghelase, a Data Scientist with a passion for scientific computing, applied mathematics and visualisation.
+        I am Georgian Ghelase, a Data Scientist with a passion for scientific computing, applied mathematics and visualisation.
+      </p>
+    </section>
+    <section class="outro">
+        <h1>Thank you for visiting.</h1>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+    <script src="./js/script1.js"></script>
+
     <script>
-        const header = document.querySelector(".header");
-        const letters = document.querySelectorAll(".letter");
-        const websiteContent = document.querySelector(".website-content");
+      const header = document.querySelector(".header");
+      const letters = document.querySelectorAll(".letter");
+      const websiteContent = document.querySelector(".website-content");
 
-        let lastScroll = 0;
+      let lastScroll = 0;
 
-        const sectionHeight = 150;
+      const sectionHeight = 150;
 
-        window.addEventListener("scroll", () => {
-            const scrollY = window.scrollY;
+      window.addEventListener("scroll", () => {
+          const scrollY = window.scrollY;
 
-            if (scrollY < 900) {
-                websiteContent.style.position = "fixed";
-                websiteContent.style.top = "0px";
-            } else {
-                websiteContent.style.position = "absolute";
-                websiteContent.style.top = "900px";
-            }
-            const orderPairs = [
-                [4, 5],
-                [3, 6],
-                [2, 7],
-                [1, 8],
-                [0, 9],
-            ];
+          if (scrollY < 900) {
+              websiteContent.style.position = "fixed";
+              websiteContent.style.top = "0px";
+          } else {
+              websiteContent.style.position = "absolute";
+              websiteContent.style.top = "900px";
+          }
+          const orderPairs = [
+              [4, 5],
+              [3, 6],
+              [2, 7],
+              [1, 8],
+              [0, 9],
+          ];
 
-            orderPairs.forEach((pair, orderIndex) => {
-                const startScroll = sectionHeight * orderIndex;
+          orderPairs.forEach((pair, orderIndex) => {
+              const startScroll = sectionHeight * orderIndex;
 
-                if (scrollY >= startScroll) {
-                    const moveFactor = Math.min(
-                        1,
-                        (scrollY - startScroll) / sectionHeight
-                    );
-                    const translateY = -moveFactor * header.offsetHeight;
+              if (scrollY >= startScroll) {
+                  const moveFactor = Math.min(
+                      1,
+                      (scrollY - startScroll) / sectionHeight
+                  );
+                  const translateY = -moveFactor * header.offsetHeight;
 
-                    pair.forEach((idx) => {
-                        const letter = letters[idx];
-                        gsap.to(letter, {
-                            y: translateY,
-                            zIndex: 1 - moveFactor,
-                        });
-                    });
-                } else {
-                    pair.forEach((idx) => {
-                        const letter = letters[idx];
-                        gsap.to(letter, {
-                            y: 0,
-                            zIndex: 1,
-                        });
-                    });
-                }
-            });
-        
-        const buffer = 50;
+                  pair.forEach((idx) => {
+                      const letter = letters[idx];
+                      gsap.to(letter, {
+                          y: translateY,
+                          zIndex: 1 - moveFactor,
+                      });
+                  });
+              } else {
+                  pair.forEach((idx) => {
+                      const letter = letters[idx];
+                      gsap.to(letter, {
+                          y: 0,
+                          zIndex: 1,
+                      });
+                  });
+              }
+          });
+      
+      const buffer = 50;
 
-        lastScroll = scrollY;
-    });
-    </script>
+      lastScroll = scrollY;
+  });
+  </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
-</body>
+  </body>
+</html>

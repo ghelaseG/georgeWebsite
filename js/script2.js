@@ -7,14 +7,15 @@ document.addEventListener("DOMContentLoaded", () => {
     gsap.ticker.lagSmoothing(0);
   
     const highlightWords = [
-      "Georgian",
-      "Data Scientist",
+      "YouTube",
+      "aesthetic",
       "immersive",
       "exceptional",
       "inspiration",
       "recreate",
       "void",
       "passionate",
+      "PRO",
       "creativity",
       "life",
     ];
