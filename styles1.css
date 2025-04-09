@@ -1,29 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  body {
+body {
     font-family: "Space Mono";
     overflow-x: hidden;
-  }
+}
   
-  section {
+section {
     position: relative;
     width: 100vw;
     height: 100vh;
     padding: 2em;
     overflow: hidden;
-  }
+}
   
-  img {
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.388);
+}
   
-  .header {
+.header {
     top: 0;
     position: fixed;
     margin-top: 2em;
@@ -32,9 +35,9 @@
     display: flex;
     color: azure;
     z-index: 1;
-  }
+}
   
-  .header::before {
+.header::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -42,37 +45,37 @@
     left: 0;
     background:#0f0f0f;
     z-index: 1;
-  }
+}
   
-  .website-content {
+.website-content {
     width: 100%;
     top: 80;
     z-index: 2;
-  }
+}
   
-  .website-content-wrapper {
+.website-content-wrapper {
     width: 70%;
     margin: 0 auto;
-  }
+}
   
-  .intro,
-  .outro {
+.intro,
+.outro {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .intro {
+.intro {
     background-color: #ebeae4;
     color: #0f0f0f;
-  }
+}
   
-  .outro {
+.outro {
     background-color: #d4cfc0;
     color: #0f0f0f;
-  }
+}
   
-  nav {
+nav {
     position: absolute;
     top: 0;
     left: 0;
@@ -81,29 +84,57 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
   
-  nav p {
+nav p {
     text-transform: uppercase;
     font-size: 12px;
     padding: 2px 8px;
     border-radius: 20px;
     background-color: #0f0f0f;
     color: #ebeae4;
-  }
+}
   
-  .sticky {
+.sticky {
     background-color: #0f0f0f;
-  }
+}
   
-  .sticky p {
+.sticky p {
     color: #0f0f0f;
-  }
+}
   
-  .char {
+.char {
     display: inline-block;
     position: absolute;
     pointer-events: none;
     opacity: 0;
-  }
-  
+}
+
+.container {
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+}
+ 
+.hero h1 {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  color: #242726;
+  font-family: "Poppins", sans-serif;
+  font-size: 6vw;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  letter-spacing: -0.5rem;
+  line-height: 1;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.hero h1 .char {
+  position: relative;
+  will-change: transform;
+}
