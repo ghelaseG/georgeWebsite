@@ -40,16 +40,19 @@
             <img src="./assets/letters/plain.png" alt="">
         </div>
     </div>
-    <div class="container">
-        <div class="hero">
-          <h1>Data Scientist</h1>
-        </div>
-    </div>
+    
 
     <div class="website-content">
         <div class="website=content-wrapper">
         </div>
     </div>
+
+    <div class="container">
+        <div class="hero">
+          <h1>Data Scientist</h1>
+        </div>
+    </div>
+    
     </section>
     <section class="sticky">
       <p>
@@ -69,6 +72,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+    <script src="./js/transition.js"></script>
+
     <script src="./js/script1.js"></script>
 
     <script>
@@ -129,8 +134,23 @@
       const buffer = 50;
 
       lastScroll = scrollY;
+      
     });
+    
     </script>
 
+    <script>
+        if (document.querySelector(".hero h1")) {
+        const heroText = new SplitType(".hero h1", { types: "chars" });
+        gsap.set(heroText.chars, { y: 400 });
+        gsap.to(heroText.chars, {
+            y: 0,
+            duration: 1,
+            stagger: 0.075,
+            ease: "power4.out",
+            delay: 1,
+        });
+    }   
+    </script>
   </body>
 </html>
