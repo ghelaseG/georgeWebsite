@@ -1,3 +1,23 @@
+let lenis;
+
+function initializeLenis() {
+  if (lenis) {
+    lenis.destroy();
+  }
+
+  lenis = new Lenis({
+    autoRaf: true,
+    smoothWheel: true,
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     const lenis = new Lenis();
     lenis.on("scroll", ScrollTrigger.update);
@@ -198,7 +218,19 @@ document.addEventListener("DOMContentLoaded", () => {
         shuffledHighlights[i],
       ];
     }
-  
+    
+    if (document.querySelector(".hero h1")) {
+      const heroText = new SplitType(".hero h1", { types: "chars" });
+      gsap.set(heroText.chars, { y: 400 });
+      gsap.to(heroText.chars, {
+        y: 0,
+        duration: 1,
+        stagger: 0.075,
+        ease: "power4.out",
+        delay: 1,
+      });
+    }
+    
     shuffledHighlights.forEach((word) => {
       phase2.to(
         word,
