@@ -20,8 +20,8 @@ section {
 }
   
 img {
-    width: 120%;
-    height: 120%;
+    width: 130%;
+    height: 130%;
     object-fit: cover;
     filter: drop-shadow(8px 8px 10px gray);
 
