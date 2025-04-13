@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +29,7 @@ nav a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "MOSKO MAPPA";
+  font-family: "Poppins";
   font-size: 28px;
   pointer-events: all;
 }
@@ -38,11 +40,12 @@ nav button {
   color: #fff;
   background-color: #000;
   border-radius: 0.25em;
-  padding: 0.65em 1em 0.25em 1em;
+  padding: 0.45em 0.3em 0.25em 0.3em;
   text-transform: uppercase;
-  font-family: "MOSKO MAPPA";
-  font-size: 24px;
+  font-family: "Poppins";
+  font-size: 42px;
   pointer-events: all;
+  cursor: pointer;
 }
 
 .board {
