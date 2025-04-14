@@ -176,11 +176,13 @@ main {
 
 .bg-img {
     position: absolute;
-    width: 2800px;
-    top: calc(50% - 390px);
+    /* width:200vh;
+    height:200vh; */
+    top: calc(90% - 390px);
     left: calc(50% + 10px);
     transform: translate(-50%, -50%);
     z-index: 1;
+    object-fit: fill;
 }
 
 .fog-7 {
