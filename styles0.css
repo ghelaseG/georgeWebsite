@@ -66,11 +66,12 @@ align-items: center;
 
 .intro {
 background-image: url(./assets/background/design1.png);
-object-position: center;
+object-fit: contain;
 }
 
 .outro {
 background-image: url(./assets/background/design1.png);
+object-fit: contain;
 }
 
 nav {
@@ -94,7 +95,9 @@ color: #ebeae4;
 }
 
 .sticky {
-background-image: url(./assets/background/design6.png);}
+background-image: url(./assets/background/design6.png);
+object-fit: contain;
+}
 
 .sticky p {
 color: #0f0f0f;
