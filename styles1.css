@@ -184,7 +184,7 @@ nav {
   
 }
 
-nav, footer {
+.container nav, footer {
   position: absolute;
   padding: 2em;
   width: 100%;
@@ -196,7 +196,7 @@ footer {
   bottom: 0;
 }
 
-nav > div, footer > div {
+.container nav > div, footer > div {
 padding: 2em;
 cursor: pointer;
 }
