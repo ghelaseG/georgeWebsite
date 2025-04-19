@@ -85,3 +85,8 @@ https://cssgradient.io/
 
 https://gsap.com/docs/v3/Plugins/ScrollTrigger/?page=1
 
+create qr code:
+https://www.qrcode-monkey.com/#mecard
+
+good for editing images:
+https://www.canva.com/
