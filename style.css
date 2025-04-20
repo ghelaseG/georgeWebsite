@@ -259,11 +259,11 @@ main {
 
 .mountain-6 {
     position: absolute;
-    z-index: 10;
-    width: 383.5px;
-    top: calc(50% + 86.5px);
-    left: calc(50% + 590px);
-    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 983.5px;
+    top: calc(30% + 86.5px);
+    left: calc(40% + 590px);
+    transform: translate(-40%, -50%);
 }
 
 .mountain-5 {
