@@ -12,7 +12,7 @@ const parallax_el = document.querySelectorAll(".parallax");
 let timeline = gsap.timeline();
 
 timeline.from(".bg-img", {
-    top: "200px",
+    top: "100px",
     duration : 2.65,
 });
 
