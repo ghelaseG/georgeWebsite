@@ -409,10 +409,10 @@ transform: none;
 .mountain-4 {
     position: absolute;
     z-index: 5;
-    width: 717px;
-    top: calc(50% + 221px);
-    left: calc(50% - 381.5px);
-    transform: translate(-2%, 2%);
+    width: 417px;
+    top: calc(35% + 221px);
+    left: calc(60% - 381.5px);
+    transform: translate(40%, -20%);
 }
 
 .mountain-1 {
@@ -428,8 +428,8 @@ transform: none;
     position: absolute;
     z-index: 5;
     top: 10%;
-    width: 90%;
-    height: 92%;
+    width: 85%;
+    height: 102%;
     transform: translate(-2%, 2%);
     pointer-events: all;
 }
