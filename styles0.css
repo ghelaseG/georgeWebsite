@@ -19,9 +19,9 @@ padding: 2em;
 overflow: hidden;
 }
 
-img {
-width: 130%;
-height: 130%;
+.letter img {
+width: 140%;
+height: 120%;
 object-fit: cover;
 }
 
@@ -65,12 +65,12 @@ align-items: center;
 }
 
 .intro {
-background-image: url(./assets/background/design1.png);
+background-image: url(./assets/background/design2.png);
 object-fit: contain;
 }
 
 .outro {
-background-image: url(./assets/background/design1.png);
+background-image: url(./assets/background/design2.png);
 object-fit: contain;
 }
 
@@ -94,12 +94,12 @@ background-color: #0f0f0f;
 color: #ebeae4;
 }
 
-.sticky {
-background-image: url(./assets/background/design6.png);
+.sticky2 {
+background-image: url(./assets/background/design2.png);
 object-fit: contain;
 }
 
-.sticky p {
+.sticky2 p {
 color: #0f0f0f;
 }
 
