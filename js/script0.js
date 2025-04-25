@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+
 const lenis = new Lenis();
 lenis.on("scroll", ScrollTrigger.update);
 gsap.ticker.add((time) => {
@@ -20,7 +21,7 @@ const highlightWords = [
     "life",
 ];
 
-const text = new SplitType(".sticky2 p", { types: "words" });
+const text = new SplitType(".sticky p", { types: "words" });
 const words = [...text.words];
 
 const { Engine, Runner, World, Bodies, Body, Events } = Matter;
@@ -58,7 +59,7 @@ wordsToHighlight.forEach((word) => {
     const chars = word.textContent.split("");
     const wordRect = word.getBoundingClientRect();
     const stickyRect = document
-    .querySelector(".sticky2")
+    .querySelector(".sticky")
     .getBoundingClientRect();
 
     word.style.opacity = 1;
@@ -68,7 +69,7 @@ wordsToHighlight.forEach((word) => {
     charSpan.className = "char";
     charSpan.textContent = char;
     charSpan.style.position = "absolute";
-    document.querySelector(".sticky2").appendChild(charSpan);
+    document.querySelector(".sticky").appendChild(charSpan);
 
     const charWidth = word.offsetWidth / chars.length;
     const x = wordRect.left - stickyRect.left + charIndex * charWidth;
@@ -130,7 +131,7 @@ function resetAnimation() {
 
 const tl = gsap.timeline({
     scrollTrigger: {
-    trigger: ".sticky2",
+    trigger: ".sticky",
     start: "top top",
     end: `+=${window.innerHeight * 4}px`,
     pin: true,
