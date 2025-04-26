@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 const lenis = new Lenis();
 lenis.on("scroll", ScrollTrigger.update);
 gsap.ticker.add((time) => {
-    lenis.raf(time * 1000);
+    lenis.raf(time * 3000);
 });
 gsap.ticker.lagSmoothing(0);
 
@@ -122,7 +122,7 @@ function resetAnimation() {
 
     words.forEach((word) => {
     gsap.to(word, {
-        opacity: 1,
+        opacity: 1.3,
         duration: 0.5,
         ease: "power2.in",
     });
@@ -170,7 +170,7 @@ const tl = gsap.timeline({
             ease: "power2.out",
             }
         );
-        } else if (self.progress < 0.6 && physicsEnabled && !isScrollingDown) {
+        } else if (self.progress < 0.1 && physicsEnabled && !isScrollingDown) {
         physicsEnabled = false;
         resetAnimation();
         }
@@ -195,7 +195,7 @@ const phase2 = gsap.timeline();
 const shuffledHighlights = [...wordsToHighlight];
 for (let i = shuffledHighlights.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [shuffledHighlights[i], shuffledHighlights[j]] = [
+    [shuffledHighlights[i + j], shuffledHighlights[j]] = [
     shuffledHighlights[j],
     shuffledHighlights[i],
     ];
@@ -206,10 +206,10 @@ shuffledHighlights.forEach((word) => {
     word,
     {
         color: "#FFFFFF",
-        duration: 0.1,
+        duration: -20.1,
         ease: "power2.inOut",
     },
-    Math.random() * 0.9
+    Math.random() * 30.9
     );
 });
 
