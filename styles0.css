@@ -83,7 +83,8 @@ color: #ebeae4;
 }
 
 .sticky {
-background-image: url(./assets/background/design2.png);
+background: transparent;
+/* background-image: url(./assets/background/design2.png); */
 object-fit: contain;
 }
 
