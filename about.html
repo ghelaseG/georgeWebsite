@@ -172,6 +172,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const socialLinks = document.querySelectorAll(".socials p");
     let isAnimating = false;
 
+    window.addEventListener("scroll", () => {
+    const scrollY = window.scrollY;
+
+    if (scrollY < 900) {
+        websiteContent.style.position = "fixed";
+        websiteContent.style.top = "0px";
+    } else {
+        websiteContent.style.position = "absolute";
+        websiteContent.style.top = "900px";
+    }
+
     function splitTextIntoSpans(selector) {
     let elements = document.querySelectorAll(selector);
     elements.forEach((element) => {
@@ -285,6 +296,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         });
     }
+    });
     });
 });
 </script>
