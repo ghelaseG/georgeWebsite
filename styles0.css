@@ -226,7 +226,27 @@ background-color: #e1dedc;
 color: #05364c;
 }
 
+/* logos */
+.logo,
+.menu-logo {
+position: absolute;
+top: 2em;
+left: 2em;
+}
 
+.logo a,
+.menu-logo a {
+text-decoration: none;
+text-transform: uppercase;
+color: #000;
+font-family: "Schabo";
+font-size: 60px;
+font-weight: lighter;
+}
+
+.menu-logo a {
+color: #fff;
+}
 /* menu toggle btn */
 .menu-toggle {
 position: fixed;
