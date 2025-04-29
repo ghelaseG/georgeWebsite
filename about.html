@@ -172,16 +172,31 @@ document.addEventListener("DOMContentLoaded", () => {
     const socialLinks = document.querySelectorAll(".socials p");
     let isAnimating = false;
 
-    window.addEventListener("scroll", () => {
-    const scrollY = window.scrollY;
+    {
+        const menu = document.querySelector(".menu-toggle")
+        let lastScrollY = window.scrollY;
 
-    if (scrollY < 900) {
-        websiteContent.style.position = "fixed";
-        websiteContent.style.top = "0px";
-    } else {
-        websiteContent.style.position = "absolute";
-        websiteContent.style.top = "900px";
+        window.addEventListener("scroll", () => {
+            if (lastScrollY < window.scrollY) {
+                menu.classList.add("menu--hidden");
+            } else {
+                menu.classList.remove("menu--hidden")
+            }
+            lastScrollY = window.scrollY;
+        });
     }
+    // let lastScroll = 0;
+
+    // menuToggle.addEventListener("scroll", () => {
+    // const scrollY = window.scrollY;
+
+    // if (scrollY < 900) {
+    //     websiteContent.style.position = "fixed";
+    //     websiteContent.style.top = "0px";
+    // } else {
+    //     websiteContent.style.position = "absolute";
+    //     websiteContent.style.top = "900px";
+    // }
 
     function splitTextIntoSpans(selector) {
     let elements = document.querySelectorAll(selector);
@@ -297,8 +312,11 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
     });
-    });
 });
+// });
+// lastScroll = scrollY;
+
+
 </script>
 <script>
     const itemsArray = [];
