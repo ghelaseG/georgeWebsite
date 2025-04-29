@@ -352,6 +352,7 @@ clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
 pointer-events: none;
 transform-style: preserve-3d;
 perspective: 1000px;
+z-index: 9999999;
 }
 
 .ccol-1 {
