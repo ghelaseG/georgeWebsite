@@ -247,6 +247,7 @@ font-weight: lighter;
 .menu-logo a {
 color: #fff;
 }
+
 /* menu toggle btn */
 .menu-toggle {
 position: fixed;
@@ -259,7 +260,7 @@ border-radius: 8em;
 transition: width 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 transform-origin: right;
 cursor: pointer;
-z-index: 99999;
+z-index: 999999999;
 }
 
 .menu-toggle.opened {
@@ -273,7 +274,7 @@ left: 30px;
 transform: translateY(-50%);
 color: #fff;
 transition: left 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-z-index: 999;
+z-index: 9999999999999;
 }
 
 .menu-copy p {
@@ -301,7 +302,7 @@ border-radius: 100%;
 clip-path: circle(10% at 50% 50%);
 background-color: #fff;
 transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-z-index: 99999;
+z-index: 9999999999;
 overflow: hidden;
 }
 
@@ -326,6 +327,7 @@ justify-content: center;
 align-items: center;
 transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 opacity: 0;
+z-index: 9999999;
 }
 
 .menu-toggle:hover .hamburger,
