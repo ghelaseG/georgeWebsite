@@ -139,7 +139,7 @@ const tl = gsap.timeline({
         const isScrollingDown = self.progress > lastProgress;
         lastProgress = self.progress;
 
-        if (self.progress >= 0.6 && !physicsEnabled && isScrollingDown) {
+        if (self.progress >= 0.63 && !physicsEnabled && isScrollingDown) {
         physicsEnabled = true;
         engine.world.gravity.y = 1;
 
