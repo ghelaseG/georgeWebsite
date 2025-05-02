@@ -23,17 +23,20 @@ section {
 }
 
 .letter img {
-width: 140%;
-height: 120%;
+/* full-width: 140%; */
+justify-content: center;
+align-items: center;
+width: 120px;
+height: 200px;
 object-fit: cover;
 }
 
 .header {
 top: 0;
 position: fixed;
-margin-top: 2em;
-padding: 2em;
-width: 100%;
+margin-top: 3em;
+padding: 7em;
+width: 80%;
 display: flex;
 color: azure;
 z-index: 1;
