@@ -8,16 +8,16 @@ gsap.ticker.lagSmoothing(0);
 
 const highlightWords = [
     "Georgian",
-    "Data Scientist",
-    "immersive",
-    "exceptional",
-    "inspiration",
-    "recreate",
-    "void",
-    "passionate",
-    "PRO",
-    "creativity",
-    "life",
+    "Data",
+    "Scientist",
+    "Big",
+    "Statistics",
+    "mathematics",
+    "visualisation",
+    "computing",
+    "data",
+    "analysis",
+    "science",
 ];
 
 const text = new SplitType(".sticky p", { types: "words" });
@@ -122,7 +122,7 @@ function resetAnimation() {
     words.forEach((word) => {
     gsap.to(word, {
         opacity: 1,
-        duration: 0.5,
+        duration: 0.1,
         ease: "power2.in",
     });
     });
