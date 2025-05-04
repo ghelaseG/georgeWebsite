@@ -132,14 +132,14 @@ const tl = gsap.timeline({
     scrollTrigger: {
     trigger: ".sticky",
     start: "top top",
-    end: `+=${window.innerHeight * 14}px`,
+    end: `+=${window.innerHeight * 15}px`,
     pin: true,
     scrub: true,
     onUpdate: (self) => {
         const isScrollingDown = self.progress > lastProgress;
         lastProgress = self.progress;
 
-        if (self.progress >= 0.62 && !physicsEnabled && isScrollingDown) {
+        if (self.progress >= 0.66 && !physicsEnabled && isScrollingDown) {
         physicsEnabled = true;
         engine.world.gravity.y = 1;
 
@@ -182,8 +182,8 @@ shuffledWords.forEach((word) => {
     phase1.to(
     word,
     {
-        color: "#EB4330",
-        duration: 0.1,
+        color: "#00777a",
+        duration: 0.2,
         ease: "power2.inOut",
     },
     Math.random() * 0.9
