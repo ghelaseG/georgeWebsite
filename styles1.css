@@ -54,8 +54,7 @@ font-size: 12px;
 html,
 body {
 width: 100%;
-height: 150%;
-font-family: "Rubik";
+height: 100%%;
 background-image: url(./assets/background/design2.png);
 }
 

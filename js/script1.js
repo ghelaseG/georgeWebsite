@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const generatePads = (card, activePadCount, items) => {
-    const rowsConfig = [7, 7, 7, 7, Math.floor(Math.random() * 3) + 2];
+    const rowsConfig = [7, 7, 7, 7, Math.floor(Math.random() * 2) + 2];
     const clickablePads = [];
 
     rowsConfig.forEach((padCount, rowIndex) => {
