@@ -1,6 +1,6 @@
 const data = [
   {
-    "April 2023": [
+    "Python Projects": [
       {
         img: "./assets/new/dashboard.png",
         h1: "FTSE 100 Exploration",
@@ -18,7 +18,7 @@ const data = [
     ],
   },
   {
-    "June 2023": [
+    "R Projects": [
       {
         img: "./assets/new/img5.jpg",
         h1: "Final Capstone Bootcamp",
@@ -29,7 +29,7 @@ const data = [
     ],
   },
   {
-    "March 2024": [
+    "SQL Projects": [
       {
         img: "./assets/new/img6.jpg",
         h1: "Udemy",
@@ -47,7 +47,7 @@ const data = [
     ],
   },
   {
-    "April 2024": [
+    "AI Projects": [
       {
         img: "./assets/new/img1.jpg",
         h1: "Leetcode",
