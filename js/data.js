@@ -64,6 +64,24 @@ const data = [
       },
     ],
   },
+  {
+    "Leetcode": [
+      {
+        img: "./assets/new/img1.jpg",
+        h1: "Leetcode",
+        copy: "Python-Data-Structures-Algorithms-LEETCODE-Practice",
+        linkLabel: "Explore More",
+        linkSrc: "https://github.com/ghelaseG/Python-Data-Structures-Algorithms-LEETCODE-Exercises",
+      },
+      {
+        img: "./assets/new/img2.jpg",
+        h1: "Street Art Chronicles",
+        copy: "Delve into the vibrant world of street art with this project, showcasing the creativity and impact of urban artists who transform public spaces into canvases for expression.",
+        linkLabel: "Discover Now",
+        linkSrc: "https://example.com/street-art-chronicles",
+      },
+    ],
+  },
 ];
 
 export default data;
