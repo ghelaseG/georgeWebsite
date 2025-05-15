@@ -1,7 +1,7 @@
 import data from "./data.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const activeColors = ["#5fa5f9", "#e879f9", "#a78bfa", "#2cd4bf"];
+  const activeColors = ["#5fa5f9", "#facc15", "#a78bfa", "#2cd4bf", "#23BEDA"];
 
   const shuffleArray = (array) => {
     for (let i = array.length - 1; i > 0; i--) {

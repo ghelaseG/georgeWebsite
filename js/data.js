@@ -2,14 +2,14 @@ const data = [
   {
     "Python Projects": [
       {
-        img: "./assets/new/dashboard.png",
+        img: "./assets/background/design2.png",
         h1: "FTSE 100 Exploration",
         copy: "In this exciting project, we delve into the world of data science and finance to unlock valuable insights from the FTSE 100 index.",
         linkLabel: "Explore More",
         linkSrc: "https://github.com/ghelaseG/data_science_project_finance",
       },
       {
-        img: "./assets/new/img2.jpg",
+        img: "./assets/background/design2.png",
         h1: "Fundamentals Data Science Bootcamp",
         copy: "Discover the projects from the Bootcamp with HyperionDev",
         linkLabel: "Explore More",
