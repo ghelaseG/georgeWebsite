@@ -2,18 +2,39 @@ const data = [
   {
     "Python Projects": [
       {
-        img: "./assets/background/design2.png",
+        img: "./assets/projectsImages/stock.jpg",
         h1: "FTSE 100 Exploration",
         copy: "In this exciting project, we delve into the world of data science and finance to unlock valuable insights from the FTSE 100 index.",
         linkLabel: "Explore More",
         linkSrc: "https://github.com/ghelaseG/data_science_project_finance",
       },
       {
-        img: "./assets/background/design2.png",
+        img: "./assets/projectsImages/hyperion.png",
         h1: "Fundamentals Data Science Bootcamp",
         copy: "Discover the projects from the Bootcamp with HyperionDev",
         linkLabel: "Explore More",
         linkSrc: "https://github.com/ghelaseG/HyperionDev---Data-Science-Fundamentals-Tasks",
+      },
+      {
+        img: "./assets/projectsImages/book.jpg",
+        h1: "Automate The Boring Stuff With Python",
+        copy: "Discover the projects from the book I studied: Automate the Boring Stuff with Python, by Al Sweigart",
+        linkLabel: "Explore More",
+        linkSrc: "https://github.com/ghelaseG/Book---Automate-the-Boring-Stuff-with-Python-by-Al-Sweigart-",
+      },
+      {
+        img: "./assets/projectsImages/udemy.png",
+        h1: "Build 10 Real World Application",
+        copy: "Discover the projects from the course I studied: Udemy - The Python Mega Course: Build 10 Real World Applications, by Ardit Sulce",
+        linkLabel: "Explore More",
+        linkSrc: "https://github.com/ghelaseG/Udemy---The-Python-Mega-Course-Build-10-Real-World-Applications-by-Ardit-Sulce",
+      },
+      {
+        img: "./assets/projectsImages/udemy.png",
+        h1: "The Complete Python Bootcamp From Zero to Hero in Python",
+        copy: "Discover the projects from the course I studied: Udemy - The Complete Python Bootcamp From Zero to Hero in Python, by Jose Portilla",
+        linkLabel: "Explore More",
+        linkSrc: "https://github.com/ghelaseG/Complete-Python-3-Bootcamp?tab=readme-ov-file",
       },
     ],
   },
