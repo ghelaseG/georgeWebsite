@@ -41,11 +41,11 @@ const data = [
   {
     "R Projects": [
       {
-        img: "./assets/new/img5.jpg",
-        h1: "Final Capstone Bootcamp",
-        copy: "This repository contains a collection of projects focused on Natural Language Processing (NLP) and its applications.",
+        img: "./assets/projectsImages/bookR.png",
+        h1: "R For Data Science",
+        copy: "Discover the projects from the book I studied: R for Data Science, by Garrett Grolemund",
         linkLabel: "Explore More",
-        linkSrc: "https://github.com/ghelaseG/finalCapstone",
+        linkSrc: "https://github.com/ghelaseG/R-for-DS",
       },
     ],
   },
@@ -70,15 +70,15 @@ const data = [
   {
     "AI Projects": [
       {
-        img: "./assets/new/img1.jpg",
-        h1: "Leetcode",
-        copy: "Python-Data-Structures-Algorithms-LEETCODE-Practice",
+        img: "./assets/new/img5.jpg",
+        h1: "Final Capstone Bootcamp",
+        copy: "This repository contains a collection of projects focused on Natural Language Processing (NLP) and its applications.",
         linkLabel: "Explore More",
-        linkSrc: "https://github.com/ghelaseG/Python-Data-Structures-Algorithms-LEETCODE-Exercises",
+        linkSrc: "https://github.com/ghelaseG/finalCapstone",
       },
       {
         img: "./assets/new/img2.jpg",
-        h1: "Street Art Chronicles",
+        h1: "Hackathon",
         copy: "Delve into the vibrant world of street art with this project, showcasing the creativity and impact of urban artists who transform public spaces into canvases for expression.",
         linkLabel: "Discover Now",
         linkSrc: "https://example.com/street-art-chronicles",
@@ -86,20 +86,13 @@ const data = [
     ],
   },
   {
-    "Leetcode": [
+    "Competitive Programming": [
       {
         img: "./assets/new/img1.jpg",
         h1: "Leetcode",
         copy: "Python-Data-Structures-Algorithms-LEETCODE-Practice",
         linkLabel: "Explore More",
         linkSrc: "https://github.com/ghelaseG/Python-Data-Structures-Algorithms-LEETCODE-Exercises",
-      },
-      {
-        img: "./assets/new/img2.jpg",
-        h1: "Street Art Chronicles",
-        copy: "Delve into the vibrant world of street art with this project, showcasing the creativity and impact of urban artists who transform public spaces into canvases for expression.",
-        linkLabel: "Discover Now",
-        linkSrc: "https://example.com/street-art-chronicles",
       },
     ],
   },
