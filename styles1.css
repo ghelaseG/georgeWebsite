@@ -142,11 +142,10 @@ button {
   color: gray;
 }
 
-.copy.link {
+.copy.llink {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: blue;
   margin: 1em 0;
 }
 

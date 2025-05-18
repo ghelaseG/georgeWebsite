@@ -53,8 +53,8 @@ document.addEventListener("DOMContentLoaded", () => {
       <h1>${item.h1}</h1>
       <p>${item.copy}</p>
     </div>
-    <div class="card-item copy link">
-      <a href="${item.linkSrc}">${item.linkLabel}</a>
+    <div class="card-item copy llink">
+      <a href="${item.llinkSrc}">${item.llinkLabel}</a>
       <ion-icon name="arrow-forward-outline"></ion-icon>
     </div>
   `;
