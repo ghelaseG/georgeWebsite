@@ -86,6 +86,17 @@ const data = [
     ],
   },
   {
+    "CSS/Javascript Projects": [
+      {
+        img: "./assets/projectsImages/website.jpg",
+        h1: "My Portfolio Website",
+        copy: "Website built from scratch",
+        llinkLabel: "Explore More",
+        llinkSrc: "https://github.com/ghelaseG/georgeWebsite",
+      },
+    ],
+  },
+  {
     "Competitive Programming": [
       {
         img: "./assets/projectsImages/leetcode.jpg",
