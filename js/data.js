@@ -70,27 +70,27 @@ const data = [
   {
     "AI Projects": [
       {
-        img: "./assets/new/img5.jpg",
+        img: "./assets/projectsImages/nlp.png",
         h1: "Final Capstone Bootcamp",
         copy: "This repository contains a collection of projects focused on Natural Language Processing (NLP) and its applications.",
         llinkLabel: "Explore More",
         llinkSrc: "https://github.com/ghelaseG/finalCapstone",
       },
       {
-        img: "./assets/new/img2.jpg",
-        h1: "Hackathon",
-        copy: "Delve into the vibrant world of street art with this project, showcasing the creativity and impact of urban artists who transform public spaces into canvases for expression.",
-        llinkLabel: "Discover Now",
-        llinkSrc: "https://example.com/street-art-chronicles",
+        img: "./assets/projectsImages/hackathon.png",
+        h1: "Hackathon using LLMs",
+        copy: "Hackathon hosted by Mindstone and Hackajob in partnership with Aws, Emerge, Mystic AI and Humanloop.",
+        llinkLabel: "Explore More",
+        llinkSrc: "https://www.linkedin.com/feed/update/urn:li:activity:7078822361789018112/",
       },
     ],
   },
   {
     "Competitive Programming": [
       {
-        img: "./assets/new/img1.jpg",
+        img: "./assets/projectsImages/leetcode.jpg",
         h1: "Leetcode",
-        copy: "Python-Data-Structures-Algorithms-LEETCODE-Practice",
+        copy: "Python Data Structures & Algorithms Practice",
         llinkLabel: "Explore More",
         llinkSrc: "https://github.com/ghelaseG/Python-Data-Structures-Algorithms-LEETCODE-Exercises",
       },
