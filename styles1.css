@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -39,8 +41,11 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #fff;
-  
+  background-image: linear-gradient(to left, #16306a, #2cd4bf, #00676a, #1b422a);
+  font-size: 30px;
+  color: transparent;
+  background-clip: text;
+  font-family: "Poppins", sans-serif;
 }
 
 .card {
@@ -60,7 +65,7 @@ nav a {
 .card-title {
   color: #fff;
   padding-bottom: 1em;
-  
+  font-family: "Poppins", sans-serif;
 }
 
 .row {
