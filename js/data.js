@@ -2,7 +2,7 @@ const data = [
   {
     "Python Projects": [
       {
-        img: "./assets/projectsImages/stock.jpg",
+        img: "./assets/projectsImages/stocks.jpeg",
         h1: "FTSE 100 Exploration",
         copy: "In this exciting project, we delve into the world of data science and finance to unlock valuable insights from the FTSE 100 index.",
         llinkLabel: "Explore More",
@@ -52,18 +52,18 @@ const data = [
   {
     "SQL Projects": [
       {
-        img: "./assets/new/img6.jpg",
+        img: "./assets/projectsImages/udemy.png",
         h1: "Udemy",
-        copy: "10 real world applications",
+        copy: "Book Inventory Desktop GUI Database App",
         llinkLabel: "Explore More",
-        llinkSrc: "https://github.com/ghelaseG/Udemy---The-Python-Mega-Course-Build-10-Real-World-Applications-by-Ardit-Sulce",
+        llinkSrc: "https://github.com/ghelaseG/Udemy---The-Python-Mega-Course-Build-10-Real-World-Applications-by-Ardit-Sulce/tree/main/App%205%3A%20GUI%20Apps%20and%20SQL%3A%20Build%20a%20Book%20Inventory%20Desktop%20GUI%20Database%20App",
       },
       {
-        img: "./assets/new/img8.jpg",
-        h1: "Book",
-        copy: "Automate the Boring Stuff with Python",
+        img: "./assets/projectsImages/udemy.png",
+        h1: "Udemy",
+        copy: "Data Collector Web App",
         llinkLabel: "Check it Out",
-        llinkSrc: "https://github.com/ghelaseG/Book---Automate-the-Boring-Stuff-with-Python-by-Al-Sweigart-",
+        llinkSrc: "https://github.com/ghelaseG/Udemy---The-Python-Mega-Course-Build-10-Real-World-Applications-by-Ardit-Sulce/tree/main/App%208%3A%20Flask%20and%20PostGreSQL%20-%20Build%20a%20Data%20Collector%20Web%20App",
       },
     ],
   },
