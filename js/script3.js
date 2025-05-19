@@ -1,131 +1,220 @@
-document.addEventListener("DOMContentLoaded", () => {
-gsap.registerPlugin(CustomEase);
-CustomEase.create(
-    "hop",
-    "M0,0 C0.053,0.604 0.157,0.72 0.293,0.837 0.435,0.959 0.633,1 1,1"
-);
+import { galleryItems } from "./js/data1.js";
 
-const filterMap = {
-    books: [1, 3, 7, 16, 19, 25, 33, 39, 42, 45, 50],
-    certificates: [1, 6, 11, 16, 21, 26, 31, 36, 41, 46],
-    events: [2, 3, 7, 12, 17, 22, 27, 32, 37, 42, 47],
-    education: [3, 8, 13, 18, 23, 28, 33, 38, 43, 48],
-    // content: [1, 2, 4, 9, 14, 19, 24, 29, 34, 39, 44, 49],
-    // ecommerce: [3, 4, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
-};
+document.addEventListener("DOMContentLoaded", function () {
+  const gallery = document.querySelector(".gallery");
+  const blurryPrev = document.querySelector(".blurry-prev");
+  const projectPreview = document.querySelector(".project-preview");
+  const itemCount = galleryItems.length;
 
-const items = document.querySelector(".items");
-const buttons = document.querySelectorAll(".filters button");
-let itemsWidth = items.scrollWidth;
-let containerWidth = document.body.offsetWidth;
+  let activeItemIndex = 0;
+  let isAnimating = false;
 
-let currentX = 0;
-let targetX = 0;
-const lerpFactor = 0.025;
+  function createSplitText(element) {
+    const splitText = new SplitType(element, { types: "lines" });
+    element.innerHTML = "";
+    splitText.lines.forEach((line) => {
+      const lineDiv = document.createElement("div");
+      lineDiv.className = "line";
+      const lineSpan = document.createElement("span");
+      lineSpan.textContent = line.textContent;
+      lineDiv.appendChild(lineSpan);
+      element.appendChild(lineDiv);
+    });
+  }
 
-const getRandomHeight = () => {
-    return Math.floor(Math.random() * (225 - 150 + 1)) + 150 + "px";
-};
+  const initialInfoText = document.querySelector(".info p");
+  if (initialInfoText) {
+    createSplitText(initialInfoText);
+  }
 
-const createItems = () => {
-    items.innerHTML = "";
-    for (let i = 1; i <= 50; i++) {
-    const item = document.createElement("div");
-    item.classList.add("item");
-    item.style.height = getRandomHeight();
+  const elementsToAnimate = document.querySelectorAll(
+    ".title h1, .info p .line span, .credits p, .director p, .cinematographer p"
+  );
+  gsap.set(elementsToAnimate, {
+    y: 0,
+  });
 
-    for (const [className, indices] of Object.entries(filterMap)) {
-        if (indices.includes(i)) {
-        item.classList.add(className);
-        }
-    }
+  for (let i = 0; i < itemCount; i++) {
+    const itemDiv = document.createElement("div");
+    itemDiv.classList.add("item");
+    if (i === 0) itemDiv.classList.add("active");
 
     const img = document.createElement("img");
-    img.src = `./assets/img${i}.jpg`;
-    img.alt = `Image ${i}`;
+    img.src = `./assets/img${i + 1}.jpg`;
+    img.alt = galleryItems[i].title;
 
-    item.appendChild(img);
-    items.appendChild(item);
+    itemDiv.appendChild(img);
+    itemDiv.dataset.index = i;
+    itemDiv.addEventListener("click", () => handleItemClick(i));
+    gallery.appendChild(itemDiv);
+  }
+
+  function createElementWithClass(tag, className) {
+    const element = document.createElement(tag);
+    element.classList.add(className);
+    return element;
+  }
+
+  function createProjectDetails(activeItem, index) {
+    const newProjectDetails = createElementWithClass("div", "project-details");
+
+    const detailsStructure = [
+      { className: "title", tag: "h1", content: activeItem.title },
+      { className: "info", tag: "p", content: activeItem.copy },
+      { className: "credits", tag: "p", content: "Credits" },
+      {
+        className: "director",
+        tag: "p",
+        content: `Director: ${activeItem.director}`,
+      },
+      {
+        className: "cinematographer",
+        tag: "p",
+        content: `Cinematographer: ${activeItem.cinematographer}`,
+      },
+    ];
+
+    detailsStructure.forEach(({ className, tag, content }) => {
+      const div = createElementWithClass("div", className);
+      const element = document.createElement(tag);
+      element.textContent = content;
+      div.appendChild(element);
+      newProjectDetails.appendChild(div);
+    });
+
+    const newProjectImg = createElementWithClass("div", "project-img");
+    const newImg = document.createElement("img");
+    newImg.src = `./assets/img${index + 1}.jpg`;
+    newImg.alt = activeItem.title;
+    newProjectImg.appendChild(newImg);
+
+    return {
+      newProjectDetails,
+      newProjectImg,
+      infoP: newProjectDetails.querySelector(".info p"),
+    };
+  }
+
+  function handleItemClick(index) {
+    if (index === activeItemIndex || isAnimating) return;
+
+    isAnimating = true;
+
+    const activeItem = galleryItems[index];
+
+    gallery.children[activeItemIndex].classList.remove("active");
+    gallery.children[index].classList.add("active");
+    activeItemIndex = index;
+
+    const elementsToAnimate = document.querySelectorAll(
+      ".title h1, .info p .line span, .credits p, .director p, .cinematographer p"
+    );
+
+    const currentProjectImg = document.querySelector(".project-img");
+    const currentProjectImgElem = currentProjectImg.querySelector("img");
+
+    const newBlurryImg = document.createElement("img");
+    newBlurryImg.src = `./assets/img${index + 1}.jpg`;
+    newBlurryImg.alt = activeItem.title;
+    gsap.set(newBlurryImg, {
+      opacity: 0,
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+    });
+    blurryPrev.insertBefore(newBlurryImg, blurryPrev.firstChild);
+
+    const currentBlurryImg = blurryPrev.querySelector("img:nth-child(2)");
+    if (currentBlurryImg) {
+      gsap.to(currentBlurryImg, {
+        opacity: 0,
+        duration: 1,
+        delay: 0.5,
+        ease: "power2.inOut",
+        onComplete: () => blurryPrev.removeChild(currentBlurryImg),
+      });
     }
 
-    updateItemsWidth();
-    resetPosition();
-    applyMouseMoveEffect();
-};
-
-const updateItemsWidth = () => {
-    itemsWidth = items.scrollWidth;
-};
-
-const resetPosition = () => {
-    gsap.to(items, { x: 0, ease: "power2.out", duration: 0.5 });
-    currentX = 0;
-    targetX = 0;
-};
-
-buttons.forEach((button) => {
-    button.addEventListener("click", () => {
-    buttons.forEach((btn) => btn.classList.remove("active"));
-    button.classList.add("active");
-
-    const filter = button.getAttribute("data-filter");
-
-    filterItems(filter);
+    gsap.to(newBlurryImg, {
+      delay: 0.5,
+      opacity: 1,
+      duration: 1,
+      ease: "power2.inOut",
     });
-});
 
-const filterItems = (filter) => {
-    const allItems = document.querySelectorAll(".item");
+    gsap.to(elementsToAnimate, {
+      y: -60,
+      duration: 1,
+      ease: "power4.in",
+      stagger: 0.05,
+    });
 
-    allItems.forEach((item) => {
-    const isCurrentlyHidden = getComputedStyle(item).display === "none";
-
-    if (item.classList.contains(filter)) {
-        if (isCurrentlyHidden) {
-        gsap.set(item, { display: "flex", width: "25px" });
-        gsap.to(item, {
-            width: "250px",
-            ease: "hop",
-            duration: 1,
-            onComplete: updateItemsWidth,
+    gsap.to(currentProjectImg, {
+      onStart: () => {
+        gsap.to(currentProjectImgElem, {
+          scale: 2,
+          duration: 1,
+          ease: "power4.in",
         });
-        }
-    } else {
-        gsap.set(item, { display: "none", width: "0px" });
-    }
+      },
+      scale: 0,
+      bottom: "10em",
+      duration: 1,
+      ease: "power4.in",
+      onComplete: function () {
+        document.querySelector(".project-details")?.remove();
+        currentProjectImg.remove();
+
+        const { newProjectDetails, newProjectImg, infoP } =
+          createProjectDetails(activeItem, index);
+
+        projectPreview.appendChild(newProjectDetails);
+        projectPreview.appendChild(newProjectImg);
+
+        createSplitText(infoP);
+
+        const newElementsToAnimate = newProjectDetails.querySelectorAll(
+          ".title h1, .info p .line span, .credits p, .director p, .cinematographer p"
+        );
+
+        gsap.fromTo(
+          newElementsToAnimate,
+          { y: 40 },
+          {
+            y: 0,
+            duration: 1,
+            ease: "power4.out",
+            stagger: 0.05,
+          }
+        );
+
+        gsap.fromTo(
+          newProjectImg,
+          { scale: 0, bottom: "-10em" },
+          {
+            scale: 1,
+            bottom: "1em",
+            duration: 1,
+            ease: "power4.out",
+          }
+        );
+
+        gsap.fromTo(
+          newProjectImg.querySelector("img"),
+          { scale: 2 },
+          {
+            scale: 1,
+            duration: 1,
+            ease: "power4.out",
+            onComplete: () => {
+              isAnimating = false;
+            },
+          }
+        );
+      },
     });
-
-    resetPosition();
-    setTimeout(() => {
-    updateItemsWidth();
-    applyMouseMoveEffect();
-    }, 1000);
-};
-
-const applyMouseMoveEffect = () => {
-    items.removeEventListener("mousemove", handleMouseMove);
-
-    if (itemsWidth > containerWidth) {
-    items.addEventListener("mousemove", handleMouseMove);
-    }
-};
-
-const handleMouseMove = (e) => {
-    const mouseX = e.clientX;
-    const maxScroll = itemsWidth - containerWidth;
-    const percentage = mouseX / containerWidth;
-    targetX = -maxScroll * percentage;
-};
-
-const animate = () => {
-    currentX += (targetX - currentX) * lerpFactor;
-    gsap.set(items, { x: currentX });
-
-    requestAnimationFrame(animate);
-};
-
-animate();
-
-createItems();
-filterItems("featured");
+  }
 });
