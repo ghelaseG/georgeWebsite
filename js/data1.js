@@ -1,4 +1,111 @@
 export const galleryItems = [
-    
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Northumbria University - London",
+    copy: "I am thrilled to announce that I will be starting my master’s degree in Big Data and Data Science this September 2025. This program presents an exciting opportunity for me to deepen my understanding of data analysis, machine learning, and advanced statistical methods. I look forward to engaging with industry professionals and collaborating with fellow students.",
+    place: "London",
+    period: "September 2025 - Ongoing",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
+    {
+    title: "Lorem ipsum",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    director: "London",
+    cinematographer: "GG",
+    },
   ];
   

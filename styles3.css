@@ -247,7 +247,7 @@ top: 2em;
 right: 0.2em;
 width: 120px;
 height: 60px;
-background-color: #0f0f0f;
+background-color: transparent;
 border-radius: 8em;
 transition: width 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 transform-origin: right;

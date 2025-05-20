@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   const elementsToAnimate = document.querySelectorAll(
-    ".title h1, .info p .line span, .credits p, .director p, .cinematographer p"
+    ".title h1, .info p .line span, .credits p, .place p, .period p"
   );
   gsap.set(elementsToAnimate, {
     y: 0,
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (i === 0) itemDiv.classList.add("active");
 
     const img = document.createElement("img");
-    img.src = `./assets/img${i + 1}.jpg`;
+    img.src = `./assets/learning/img${i + 1}.jpg`;
     img.alt = galleryItems[i].title;
 
     itemDiv.appendChild(img);
@@ -63,14 +63,14 @@ document.addEventListener("DOMContentLoaded", function () {
       { className: "info", tag: "p", content: activeItem.copy },
       { className: "credits", tag: "p", content: "Credits" },
       {
-        className: "director",
+        className: "place",
         tag: "p",
-        content: `Director: ${activeItem.director}`,
+        content: `Place: ${activeItem.place}`,
       },
       {
-        className: "cinematographer",
+        className: "period",
         tag: "p",
-        content: `Cinematographer: ${activeItem.cinematographer}`,
+        content: `Period: ${activeItem.period}`,
       },
     ];
 
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const newProjectImg = createElementWithClass("div", "project-img");
     const newImg = document.createElement("img");
-    newImg.src = `./assets/img${index + 1}.jpg`;
+    newImg.src = `./assets/learning/img${index + 1}.jpg`;
     newImg.alt = activeItem.title;
     newProjectImg.appendChild(newImg);
 
@@ -107,14 +107,14 @@ document.addEventListener("DOMContentLoaded", function () {
     activeItemIndex = index;
 
     const elementsToAnimate = document.querySelectorAll(
-      ".title h1, .info p .line span, .credits p, .director p, .cinematographer p"
+      ".title h1, .info p .line span, .credits p, .place p, .period p"
     );
 
     const currentProjectImg = document.querySelector(".project-img");
     const currentProjectImgElem = currentProjectImg.querySelector("img");
 
     const newBlurryImg = document.createElement("img");
-    newBlurryImg.src = `./assets/img${index + 1}.jpg`;
+    newBlurryImg.src = `./assets/learning/img${index + 1}.jpg`;
     newBlurryImg.alt = activeItem.title;
     gsap.set(newBlurryImg, {
       opacity: 0,
@@ -177,7 +177,7 @@ document.addEventListener("DOMContentLoaded", function () {
         createSplitText(infoP);
 
         const newElementsToAnimate = newProjectDetails.querySelectorAll(
-          ".title h1, .info p .line span, .credits p, .director p, .cinematographer p"
+          ".title h1, .info p .line span, .credits p, .place p, .period p"
         );
 
         gsap.fromTo(
