@@ -75,7 +75,7 @@ nav {
   gap: 1em;
 }
 
-.header {
+.headers {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -188,7 +188,7 @@ nav {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
-  .header {
+  .headers {
     top: unset;
     bottom: 1em;
     transform: none;
