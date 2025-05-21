@@ -1,6 +1,5 @@
 export const galleryItems = [
     {
-    
     copy: "On this page, I share a comprehensive collection of the resources I utilised in my studies related to data. You'll find a variety of materials, including textbooks, online courses, bootcamps, and documentaries that have significantly contributed to my understanding of data science. Additionally, I have included information about my qualifications, outlining the programs I completed and the skills I acquired throughout my academic journey. This should provide insight into both my educational background and my approach to studying about data.",
     },
     {
@@ -9,19 +8,21 @@ export const galleryItems = [
     place: "London",
     period: "September 2025 - Ongoing",
     type: "Masters Degree",
-    subject: "Big Data and Data Science",
+    course: "Big Data and Data Science",
     },
     {
-    title: "Lorem ipsum",
+    title: "Anglia Rusking University",
     copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
-    director: "London",
-    cinematographer: "GG",
+    place: "London",
+    type: "Bachelor of Science with Honors ",
+    course: "Finance and Accounting",
     },
     {
-    title: "Lorem ipsum",
+    title: "Cantemir Voda National College",
     copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
-    director: "London",
-    cinematographer: "GG",
+    place: "Bucharest",
+    type: "College",
+    course: "Mathematics and Computer Programming"
     },
     {
     title: "Lorem ipsum",

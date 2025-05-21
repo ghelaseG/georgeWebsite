@@ -104,6 +104,7 @@ nav {
 .place,
 .period,
 .type,
+.course,
 .line {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
@@ -117,7 +118,8 @@ nav {
 .info p .line span,
 .place p,
 .period p,
-.type p {
+.type p,
+.course p {
   display: inline-block;
   position: relative;
   transform: translateY(20px);
