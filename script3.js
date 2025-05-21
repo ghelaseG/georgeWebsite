@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   const elementsToAnimate = document.querySelectorAll(
-    ".title h1, .info p .line span, .credits p, .place p, .period p"
+    ".title h1, .info p .line span, .place p, .period p, .type p"
   );
   gsap.set(elementsToAnimate, {
     y: 0,
@@ -61,7 +61,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const detailsStructure = [
       { className: "title", tag: "h1", content: activeItem.title },
       { className: "info", tag: "p", content: activeItem.copy },
-      { className: "credits", tag: "p", content: "Credits" },
       {
         className: "place",
         tag: "p",
@@ -72,6 +71,11 @@ document.addEventListener("DOMContentLoaded", function () {
         tag: "p",
         content: `Period: ${activeItem.period}`,
       },
+      {
+        className: "type",
+        tag: "p",
+        content: `Type: ${activeItem.type}`,
+      }
     ];
 
     detailsStructure.forEach(({ className, tag, content }) => {
@@ -107,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
     activeItemIndex = index;
 
     const elementsToAnimate = document.querySelectorAll(
-      ".title h1, .info p .line span, .credits p, .place p, .period p"
+      ".title h1, .info p .line span, .credits p, .place p, .period p, .type p"
     );
 
     const currentProjectImg = document.querySelector(".project-img");
@@ -177,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
         createSplitText(infoP);
 
         const newElementsToAnimate = newProjectDetails.querySelectorAll(
-          ".title h1, .info p .line span, .credits p, .place p, .period p"
+          ".title h1, .info p .line span, .credits p, .place p, .period p, .type p"
         );
 
         gsap.fromTo(
