@@ -1,7 +1,7 @@
 export const galleryItems = [
     {
-    title: "Welcome to this page",
-    copy: "Where I share a comprehensive collection of the resources I utilised in my studies related to data. You'll find a variety of materials, including textbooks, online courses, bootcamps, and documentaries that have significantly contributed to my understanding of data science. Additionally, I have included information about my university degrees, outlining the programs I completed and the skills I acquired throughout my academic journey. This should provide insight into both my educational background and my approach to studying data.",
+    
+    copy: "On this page, I share a comprehensive collection of the resources I utilised in my studies related to data. You'll find a variety of materials, including textbooks, online courses, bootcamps, and documentaries that have significantly contributed to my understanding of data science. Additionally, I have included information about my qualifications, outlining the programs I completed and the skills I acquired throughout my academic journey. This should provide insight into both my educational background and my approach to studying about data.",
     },
     {
     title: "Northumbria University",
