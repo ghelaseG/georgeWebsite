@@ -132,10 +132,15 @@ nav {
   height: 50%;
   overflow: hidden;
   will-change: transform;
+  box-shadow: 10px 5px 5px;
+  /* backdrop-filter: blur(220px);*/
+  border-radius: 32px;
 }
 
 .project-img img {
   will-change: transform;
+  border: 0;
+
 }
 
 .gallery-wrapper {
