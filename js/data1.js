@@ -32,28 +32,28 @@ export const galleryItems = [
     course: "Data Science"
     },
     {
-    title: "Lorem ipsum",
+    title: "Udemy",
     copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
-    director: "London",
-    cinematographer: "GG",
+    type: "Online Course",
+    course: "Python for Data Science and Machine Learning Bootcamp"
     },
     {
-    title: "Lorem ipsum",
+    title: "Udemy",
     copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
-    director: "London",
-    cinematographer: "GG",
+    type: "Online Course",
+    course: "The Complete Python Bootcamp From Zero to Hero in Python",
     },
     {
-    title: "Lorem ipsum",
+    title: "Udemy",
     copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
-    director: "London",
-    cinematographer: "GG",
+    type: "Online Course",
+    course: "Python Data Structures & Algorithms",
     },
     {
-    title: "Lorem ipsum",
+    title: "Udemy",
     copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
-    director: "London",
-    cinematographer: "GG",
+    type: "Online Course",
+    course: "The Complete Python Bootcamp From Zero to Hero in Python",
     },
     {
     title: "Lorem ipsum",
