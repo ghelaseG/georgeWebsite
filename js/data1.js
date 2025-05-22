@@ -1,6 +1,6 @@
 export const galleryItems = [
     {
-    copy: "On this page, I share a comprehensive collection of the resources I utilised in my studies related to data. You'll find a variety of materials, including textbooks, online courses, bootcamps, and documentaries that have significantly contributed to my understanding of data science. Additionally, I have included information about my qualifications, outlining the programs I completed and the skills I acquired throughout my academic journey. This should provide insight into both my educational background and my approach to studying about data.",
+    copy: "On this page, you'll find a variety of materials, including textbooks, online courses, bootcamps, and documentaries that have significantly contributed to my understanding of data science. Additionally, I have included information about my qualifications, outlining the programs I completed and the skills I acquired throughout my academic journey. This should provide insight into both my educational background and my approach to studying about data.",
     },
     {
     title: "Northumbria University",
@@ -25,10 +25,11 @@ export const galleryItems = [
     course: "Mathematics and Computer Programming"
     },
     {
-    title: "Lorem ipsum",
+    title: "HyperionDev",
     copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
-    director: "London",
-    cinematographer: "GG",
+    place: "Remote",
+    type: "Bootcamp",
+    course: "Data Science"
     },
     {
     title: "Lorem ipsum",
