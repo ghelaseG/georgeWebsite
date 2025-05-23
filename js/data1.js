@@ -20,7 +20,7 @@ export const galleryItems = [
     },
     {
     title: "Cantemir Voda National College",
-    copy: "Studying mathematics and computer programming (IT) in college has laid a robust foundation for my understanding of data science. Mathematics has equipped me with essential skills to comprehend and apply algorithms, perform detailed analyses, and derive meaningful insights from complex datasets. During my studies, I learned C# (or possibly C++, I can't recall exactly), and I completed an Oracle course, which introduced me to database management and the significance of relational databases in handling vast amounts of data (although at the time, I didn't fully understand its purpose).",
+    copy: "Studying mathematics and computer programming (IT) in college has laid a robust foundation for my understanding of data science. Mathematics has equipped me with essential skills to comprehend and apply algorithms, perform detailed analyses, and derive meaningful insights from complex datasets. During my studies, I learned C# and I completed an Oracle course, which introduced me to database management.",
     place: "Bucharest",
     period: "September 2008 - June 2012",
     type: "College",

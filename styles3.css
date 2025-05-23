@@ -30,7 +30,8 @@ a,
 p {
   text-decoration: none;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
+  overflow: scroll;
   font-size: 15px;
   font-weight: 500;
 }
@@ -100,7 +101,7 @@ nav {
 }
 
 .info {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 .title,
@@ -134,7 +135,7 @@ nav {
   left: 1em;
   bottom: 1em;
   width: 75%;
-  height: 50%;
+  height: 45%;
   overflow: hidden;
   will-change: transform;
   box-shadow: 10px 5px 5px;
