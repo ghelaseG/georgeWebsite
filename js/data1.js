@@ -28,8 +28,9 @@ export const galleryItems = [
     },
     {
     title: "HyperionDev",
-    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    copy: "In this course, I learned essential concepts in programming and data science, including Object-Oriented Programming (OOP), linear data structures, and Big O notation. I explored algorithms, conditional statements, loops, and functions. Additionally, I studied supervised and unsupervised learning methods, such as linear and logistic regression, and developed skills in data visualization to effectively present insights.",
     place: "Remote",
+    period: "March 2023 - July 2023",
     type: "Bootcamp",
     course: "Data Science"
     },
