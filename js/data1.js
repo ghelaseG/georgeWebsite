@@ -35,13 +35,31 @@ export const galleryItems = [
     title: "Udemy",
     copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
     type: "Online Course",
-    course: "Python for Data Science and Machine Learning Bootcamp, The Complete Python Bootcamp From Zero to Hero in Python, Python Data Structures & Algorithms (Leetcode), The Python Mega Course: Build 10 Real World Applications,"
+    course: "Python for Data Science and Machine Learning Bootcamp, The Complete Python Bootcamp From Zero to Hero in Python, Python Data Structures & Algorithms (Leetcode), The Python Mega Course: Build 10 Real World Applications"
     },
     {
     title: "Books",
     copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
     type: "Read / Audio",
-    course: "Statistics: The Art of Statistics: Learning from Data, Statistics Without Tears, The Drunkard's Walk: How Randomness Rules Our Lives, How to Lie with Statistics; Data Science: Dive Into Data Science: Use Python To Tackle Your Toughest Business Challenges, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data; Python: Automate the Boring Stuff with Python, 2nd Edition; Algorithms/Coding: Grokking Algorithms, The Pragmatic Programmer: 20th Anniversary Edition, 2nd Edition: Your Journey to Mastery, Hello World: How to Be Human in the Age of the Machine; Machine Learning: The StatQuest Illustrated Guide To Machine Learning,",
+    course: "Data Science: Dive Into Data Science: Use Python To Tackle Your Toughest Business Challenges, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data",
+    },
+    {
+    title: "Books",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    type: "Read / Audio",
+    course: "Statistics: The Art of Statistics: Learning from Data, Statistics Without Tears, The Drunkard's Walk: How Randomness Rules Our Lives, How to Lie with Statistics",
+    },
+    {
+    title: "Books",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    type: "Read / Audio",
+    course: "Python: Automate the Boring Stuff with Python, 2nd Edition; Algorithms/Coding: Grokking Algorithms, The Pragmatic Programmer: 20th Anniversary Edition, 2nd Edition: Your Journey to Mastery, Hello World: How to Be Human in the Age of the Machine",
+    },
+    {
+    title: "Books",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    type: "Read / Audio",
+    course: "Machine Learning: The StatQuest Illustrated Guide To Machine Learning",
     },
     {
     title: "Documentary",
