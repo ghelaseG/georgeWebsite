@@ -12,15 +12,17 @@ export const galleryItems = [
     },
     {
     title: "Anglia Rusking University",
-    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    copy: "Having completed my studies in finance and accounting, I have developed a strong set of skills that are highly applicable to data science. For example, both fields demand effective communication of findings to stakeholders through reports, dashboards, and visualizations. I am adept at analyzing data to identify patterns, trends, and anomalies, and I understand that data is a vital resource for informed decision-making. My background equips me to excel in data-driven environments.",
     place: "London",
+    period: "September 2017 - March 2020",
     type: "Bachelor of Science with Honors ",
     course: "Finance and Accounting",
     },
     {
     title: "Cantemir Voda National College",
-    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    copy: "Studying mathematics and computer programming (IT) in college has laid a robust foundation for my understanding of data science. Mathematics has equipped me with essential skills to comprehend and apply algorithms, perform detailed analyses, and derive meaningful insights from complex datasets. During my studies, I learned C# (or possibly C++, I can't recall exactly), and I completed an Oracle course, which introduced me to database management and the significance of relational databases in handling vast amounts of data (although at the time, I didn't fully understand its purpose).",
     place: "Bucharest",
+    period: "September 2008 - June 2012",
     type: "College",
     course: "Mathematics and Computer Programming"
     },
