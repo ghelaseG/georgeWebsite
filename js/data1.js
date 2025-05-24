@@ -37,7 +37,7 @@ export const galleryItems = [
     {
     title: "Udemy",
     place: "Remote",
-    copy: "Through these courses, I have gained essential skills in using Python for machine learning, programming, and creating engaging data visualisations. I learned to apply Python in practical tasks, for example: processing image files, sending emails, reading Excel spreadsheets, managing PDFs, and scraping websites for information. The hands-on projects helped me develop my skills gradually. These courses effectively simplify complex concepts, making learning to code enjoyable.",
+    copy: "Throughout these courses, I have gained essential skills in using Python for machine learning and programming. I learned to apply Python in hands-on projects and practical tasks, for example: processing image files, sending emails, reading Excel spreadsheets, managing PDFs, and scraping websites for information.",
     type: "Online Course",
     course: "Python for Data Science and Machine Learning Bootcamp, The Complete Python Bootcamp From Zero to Hero in Python, Python Data Structures & Algorithms (Leetcode), The Python Mega Course: Build 10 Real World Applications"
     },
