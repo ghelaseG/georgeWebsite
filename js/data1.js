@@ -12,7 +12,7 @@ export const galleryItems = [
     },
     {
     title: "Anglia Rusking University",
-    copy: "Having completed my studies in finance and accounting, I have developed a strong set of skills that are highly applicable to data science. For example, both fields demand effective communication of findings to stakeholders through reports, dashboards, and visualizations. I am adept at analyzing data to identify patterns, trends, and anomalies, and I understand that data is a vital resource for informed decision-making. My background equips me to excel in data-driven environments.",
+    copy: "Having completed my studies in finance and accounting, I have developed a strong set of skills that are highly applicable to data science. For example, both fields demand effective communication of findings to stakeholders through reports, dashboards, and visualisations. I am adept at analysing data to identify patterns, trends, and anomalies, and I understand that data is a vital resource for informed decision-making.",
     place: "London",
     period: "September 2017 - March 2020",
     type: "Bachelor of Science with Honors ",
@@ -28,7 +28,7 @@ export const galleryItems = [
     },
     {
     title: "HyperionDev",
-    copy: "In this course, I learned essential concepts in programming and data science, including Object-Oriented Programming (OOP), linear data structures, and Big O notation. I explored algorithms, conditional statements, loops, and functions. Additionally, I studied supervised and unsupervised learning methods, such as linear and logistic regression, and developed skills in data visualization to effectively present insights.",
+    copy: "In this course, I learned essential concepts in programming and data science, including Object-Oriented Programming (OOP), linear data structures, and Big O notation. I explored algorithms, conditional statements, loops, and functions. Additionally, I studied supervised and unsupervised learning methods, such as linear and logistic regression, and developed skills in data visualisation to effectively present insights.",
     place: "Remote",
     period: "March 2023 - July 2023",
     type: "Bootcamp",
