@@ -28,7 +28,7 @@ export const galleryItems = [
     },
     {
     title: "HyperionDev",
-    copy: "In this course, I learned essential concepts in programming and data science, including Object-Oriented Programming (OOP), linear data structures, and Big O notation. I explored algorithms, conditional statements, loops, and functions. Additionally, I studied supervised and unsupervised learning methods, such as linear and logistic regression, and developed skills in data visualisation to effectively present insights.",
+    copy: "Throughout this bootcamp, I had the incredible opportunity to connect with a diverse and knowledgeable team of experts who truly expanded my understanding of data science. The experience was nothing short of amazing; every session was engaging and filled with valuable insights. I immersed myself in the learning process, which not only deepened my knowledge but also helped me establish a solid foundation for my future endeavors in this exciting field.",
     place: "Remote",
     period: "March 2023 - July 2023",
     type: "Bootcamp",
