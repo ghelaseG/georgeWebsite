@@ -44,8 +44,10 @@ export const galleryItems = [
     },
     {
     title: "Books",
-    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
-    type: "Read / Audio",
+    copy: "The first book dives into the most popular strategies that data scientists at leading companies use. It’s a fantastic guide that shows you how to think creatively with data science to tackle challenges in all sorts of fields. The second book is a wonderful resource for anyone looking to learn R for Data Science. I’ve already made it through half of the book, and I feel really confident in using R to solve problems now.",
+    place: "-",
+    period: "-",
+    type: "Read",
     course: "Data Science: Dive Into Data Science: Use Python To Tackle Your Toughest Business Challenges, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data",
     },
     {
