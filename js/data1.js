@@ -84,7 +84,9 @@ export const galleryItems = [
     },
     {
     title: "Video",
-    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    copy: "I discovered this course on the YouTube channel freeCodeCamp.org, which provides a clear explanation of computer science and programming.",
+    place: "-",
+    period: "-",
     type: "Lecture",
     course: "Harvard CS50 – Full Computer Science University Course",
     },
