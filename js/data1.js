@@ -76,7 +76,9 @@ export const galleryItems = [
     },
     {
     title: "Video",
-    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    copy: "This documentary was excellent for learning about William Farr, who, in the 1860s, used census data to determine the cause of cholera in Soho. It also highlighted Claude Shannon, who eliminated annoying background noise on telephone lines by converting speech into code.",
+    place: "-",
+    period: "-",
     type: "Documentary",
     course: "The Joy of Data | BBC Documentary",
     },
