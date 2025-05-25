@@ -67,10 +67,16 @@ export const galleryItems = [
     course: "Machine Learning: The StatQuest Illustrated Guide To Machine Learning",
     },
     {
-    title: "Documentary",
+    title: "Video",
     copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
-    type: "Video",
+    type: "Documentary",
     course: "The Joy of Data | BBC Documentary",
+    },
+    {
+    title: "Video",
+    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    type: "Lecture",
+    course: "Harvard CS50 – Full Computer Science University Course",
     },
   ];
   
