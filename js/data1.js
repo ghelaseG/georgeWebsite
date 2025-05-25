@@ -68,8 +68,10 @@ export const galleryItems = [
     },
     {
     title: "Books",
-    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
-    type: "Read / Audio",
+    copy: "Such a great book written by Josh Starmer! If you struggle to understand how machine learning works, this book is an excellent resource that explains what is happening behind the scenes, accompanied by fun illustrations. (Tip: He has a fantastic YouTube channel, too!)",
+    place: "-",
+    period: "-",
+    type: "Read",
     course: "Machine Learning: The StatQuest Illustrated Guide To Machine Learning",
     },
     {
