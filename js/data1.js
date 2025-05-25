@@ -52,9 +52,11 @@ export const galleryItems = [
     },
     {
     title: "Books",
-    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    copy: "The first two books on statistics have become my all-time favorites. I read the first book only once, but it made such a lasting impression that I still recall most of the key concepts and insights from it. The second book came highly recommended by a senior data scientist (a big thank you for that!), and after listening to it just once, I found it so engaging and informative that I can’t wait to immerse myself in it again.",
+    place: "-",
+    period: "-",
     type: "Read / Audio",
-    course: "Statistics: The Art of Statistics: Learning from Data, Statistics Without Tears, The Drunkard's Walk: How Randomness Rules Our Lives, How to Lie with Statistics",
+    course: "Statistics: The Art of Statistics: Learning from Data, The Drunkard's Walk: How Randomness Rules Our Lives, Statistics Without Tears, How to Lie with Statistics",
     },
     {
     title: "Books",
