@@ -28,7 +28,7 @@ export const galleryItems = [
     },
     {
     title: "HyperionDev",
-    copy: "Throughout this bootcamp, I had the incredible opportunity to connect with a diverse and knowledgeable team of experts who truly expanded my understanding of data science. The experience was nothing short of amazing; every session was engaging and filled with valuable insights. I immersed myself in the learning process, which not only deepened my knowledge but also helped me establish a solid foundation for my future endeavors in this exciting field.",
+    copy: "During this bootcamp, I had the incredible opportunity to connect with a diverse and knowledgeable team of experts who truly expanded my understanding of data science. The experience was nothing short of amazing; every session was engaging and filled with valuable insights. I immersed myself in the learning process, which not only deepened my knowledge but also helped me establish a solid foundation for my future endeavors in this exciting field.",
     place: "Remote",
     period: "March 2023 - July 2023",
     type: "Bootcamp",
@@ -60,9 +60,11 @@ export const galleryItems = [
     },
     {
     title: "Books",
-    copy: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ipsum quam ullam accusantium animi. Quaerat omnis facere accusantium corrupti? Veniam optio unde iure earum dolorum voluptatibus officia molestiae incidunt veritatis.",
+    copy: "'Automate the Boring Stuff with Python, 2nd Edition' was my first step into the world of Python programming. I clearly remember how it took me several months to read through it, yet every moment spent was rewarding. This book not only taught me the fundamentals of coding but also sparked my enthusiasm for programming as a powerful tool for problem-solving.",
+    place: "-",
+    period: "-",
     type: "Read / Audio",
-    course: "Python: Automate the Boring Stuff with Python, 2nd Edition; Algorithms/Coding: Grokking Algorithms, The Pragmatic Programmer: 20th Anniversary Edition, 2nd Edition: Your Journey to Mastery, Hello World: How to Be Human in the Age of the Machine",
+    course: "Python: Automate the Boring Stuff with Python, 2nd Edition; Grokking Algorithms, The Pragmatic Programmer: Your Journey to Mastery, Hello World: How to Be Human in the Age of the Machine",
     },
     {
     title: "Books",
