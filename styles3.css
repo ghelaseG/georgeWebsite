@@ -31,7 +31,7 @@ p {
   text-decoration: none;
   color: #fff;
   font-family: "Poppins";
-  overflow: scroll;
+  overflow: hidden;
   font-size: 15px;
   font-weight: 500;
 }
