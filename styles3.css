@@ -504,7 +504,7 @@ height: 120px;
   border-radius: 50px;
   cursor: all-scroll;
   /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); */
-  z-index: 9999;
+  z-index: 3;
 }
 
 /* add the arrows inside the scroll button */
