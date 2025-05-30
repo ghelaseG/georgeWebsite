@@ -573,7 +573,7 @@ transform: none;
     }
 }
 
-@media (max-width: 2240px) {
+@media screen and (min-width: 2240px) {
     .mountain-1 {
         position: absolute;
         z-index: 18;
@@ -594,7 +594,7 @@ transform: none;
     .bg-img {
         position: absolute;
         width: 2450px;
-        top: calc(90% - 990px);
+        top: calc(75% - 990px);
         left: calc(50% + 10px);
         transform: translate(-50%, -20%);
         z-index: -21;
@@ -614,5 +614,13 @@ transform: none;
         top: calc(45% + 186px);
         left: calc(50% - 302px);
         transform: translate(-50%, -50%);
+    }
+    .mountain-4 {
+        position: absolute;
+        z-index: 5;
+        width: 717px;
+        top: calc(36% + 221px);
+        left: calc(60% - 381.5px);
+        transform: translate(40%, -20%);
     }
 }
