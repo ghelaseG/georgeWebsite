@@ -311,7 +311,7 @@ transform: none;
     z-index: -21;
 }
 
-.fog-7 {
+.london-eye {
     position: absolute;
     z-index: 1;
     width: 700px;
@@ -320,7 +320,7 @@ transform: none;
     transform: translate(-50%, -50%);
 }
 
-.mountain-10 {
+.signage {
     position: absolute;
     z-index: 1;
     width: 892px;
@@ -347,7 +347,7 @@ transform: none;
     transform: translate(-30%, -30%);
 }
 
-.mountain-2 {
+.big-ben {
     position: absolute;
     z-index: 3;
     width: 522px;
@@ -356,7 +356,7 @@ transform: none;
     transform: translate(40%, -50%);
 }
 
-.mountain-8 {
+.queen-victoria {
     position: absolute;
     z-index: 7;
     width: 510px;
@@ -374,7 +374,7 @@ transform: none;
     transform: translate(-50%, -50%);
 }
 
-.mountain-7 {
+.churchill {
     position: absolute;
     z-index: 8;
     width: 515px;
@@ -383,7 +383,7 @@ transform: none;
     transform: translate(-50%, -50%);
 }
 
-.mountain-6 {
+.telephone {
     position: absolute;
     /* z-index: 10;
     width: 383.5px;
@@ -406,7 +406,7 @@ transform: none;
     transform: translate(-50%, -50%);
 }
 
-.mountain-4 {
+.signage-buckingham {
     position: absolute;
     z-index: 5;
     width: 417px;
@@ -415,7 +415,7 @@ transform: none;
     transform: translate(40%, -20%);
 }
 
-.mountain-1 {
+.lion {
     position: absolute;
     z-index: 18;
     width: 515px;
@@ -574,7 +574,7 @@ transform: none;
 }
 
 @media screen and (min-width: 2240px) {
-    .mountain-1 {
+    .lion {
         position: absolute;
         z-index: 18;
         width: 815px;
@@ -599,7 +599,7 @@ transform: none;
         transform: translate(-50%, -20%);
         z-index: -21;
     }
-    .mountain-2 {
+    .big-ben {
         position: absolute;
         z-index: 3;
         width: 1022px;
@@ -607,7 +607,7 @@ transform: none;
         left: calc(10% - 730px);
         transform: translate(40%, -50%);
     }
-    .mountain-8 {
+    .queen-victoria {
         position: absolute;
         z-index: 7;
         width: 780px;
@@ -615,12 +615,28 @@ transform: none;
         left: calc(50% - 302px);
         transform: translate(-50%, -50%);
     }
-    .mountain-4 {
+    .signage-buckingham {
         position: absolute;
         z-index: 5;
-        width: 717px;
+        width: 617px;
         top: calc(36% + 221px);
-        left: calc(60% - 381.5px);
+        left: calc(60% - 581.5px);
         transform: translate(40%, -20%);
+    }
+    .churchill {
+        position: absolute;
+        z-index: 8;
+        width: 815px;
+        top: calc(50% + 134px);
+        left: calc(50% + 705px);
+        transform: translate(-50%, -50%);
+    }
+    .telephone {
+        position: absolute;
+        z-index: 1;
+        width: 983.5px;
+        top: calc(60% + 86.5px);
+        left: calc(40% + 590px);
+        transform: translate(-40%, -50%);
     }
 }
