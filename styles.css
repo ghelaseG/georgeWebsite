@@ -320,7 +320,7 @@ transform: none;
     transform: translate(-50%, -50%);
 }
 
-.signage {
+.signage-underground {
     position: absolute;
     z-index: 1;
     width: 892px;
@@ -619,8 +619,8 @@ transform: none;
         position: absolute;
         z-index: 5;
         width: 617px;
-        top: calc(36% + 221px);
-        left: calc(60% - 581.5px);
+        top: calc(45% + 221px);
+        left: calc(63% - 581.5px);
         transform: translate(40%, -20%);
     }
     .churchill {
@@ -628,7 +628,7 @@ transform: none;
         z-index: 8;
         width: 815px;
         top: calc(50% + 134px);
-        left: calc(50% + 705px);
+        left: calc(47% + 705px);
         transform: translate(-50%, -50%);
     }
     .telephone {
@@ -636,7 +636,23 @@ transform: none;
         z-index: 1;
         width: 983.5px;
         top: calc(60% + 86.5px);
-        left: calc(40% + 590px);
+        left: calc(60% + 590px);
         transform: translate(-40%, -50%);
+    }
+    .signage-underground {
+        position: absolute;
+        z-index: 1;
+        width: 1092px;
+        top: calc(65% + 69px);
+        left: calc(58% + 230px);
+        transform: translate(-50%, -50%);
+    }
+    .fog-6 {
+        position: absolute;
+        z-index: 4;
+        width: 1610px;
+        top: calc(50% + 85px);
+        left: calc(50% + 10px);
+        transform: translate(-50%, -50%);
     }
 }
