@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
 
-/*select every elemnt before and after*/
 *, *::before, *::after{
     padding: 0;
     margin: 0;
@@ -293,7 +292,6 @@ height: 120px;
 }
 }
 
-
 main {
 position: relative;
 height: 100vh;
@@ -385,11 +383,6 @@ transform: none;
 
 .telephone {
     position: absolute;
-    /* z-index: 10;
-    width: 383.5px;
-    top: calc(50% + 86.5px);
-    left: calc(50% + 590px);
-    transform: translate(-50%, -50%); */
     z-index: 1;
     width: 683.5px;
     top: calc(60% + 86.5px);
@@ -520,7 +513,6 @@ transform: none;
     }
 }
 
-/* make the 3d element responsive for different screen sizes */
 @media (max-width: 1400px) {
     main h1{
         font-size: 6.3rem;
@@ -528,7 +520,6 @@ transform: none;
     }
 }
 
-/* this media querry is for smaller screens */
 @media (max-width: 768px) {
     main h1 {
         display: none;
@@ -553,7 +544,6 @@ transform: none;
     }
 }
 
-/*normal phone size */
 @media (max-width: 480px) {
     body {
         padding: 1rem;
@@ -573,7 +563,7 @@ transform: none;
     }
 }
 
-@media screen and (min-width: 2240px) {
+@media screen and (max-width: 2250px) {
     .lion {
         position: absolute;
         z-index: 18;
@@ -653,6 +643,14 @@ transform: none;
         width: 1610px;
         top: calc(50% + 85px);
         left: calc(50% + 10px);
+        transform: translate(-50%, -50%);
+    }
+    .london-eye {
+        position: absolute;
+        z-index: 1;
+        width: 1200px;
+        top: calc(50% - 100px);
+        left: calc(35% + 300px);
         transform: translate(-50%, -50%);
     }
 }
