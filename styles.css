@@ -576,7 +576,7 @@ transform: none;
         position: absolute;
         z-index: 5;
         top: 20%;
-        width: 85%;
+        width: 105%;
         height: 102%;
         transform: translate(-2%, 2%);
         pointer-events: all;
@@ -584,6 +584,7 @@ transform: none;
     .bg-img {
         position: absolute;
         width: 2450px;
+        background-size: cover;
         top: calc(75% - 990px);
         left: calc(50% + 10px);
         transform: translate(-50%, -20%);
