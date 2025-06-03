@@ -94,8 +94,9 @@ color: #0f0f0f;
 }
 
 .char {
-display: inline-block;
-position: absolute;
+/* transition-duration: 3ms; */
+/* display: inline-block; */
+position: fixed;
 pointer-events: none;
 opacity: 0;
 }
@@ -135,6 +136,7 @@ font-weight: 500;
 
 .sticky2 {
 position: fixed;
+transition-duration: 30ms;
 top: 0;
 left: 0;
 width: 100vw;
@@ -245,7 +247,7 @@ text-decoration: none;
 text-transform: uppercase;
 color: #fff;
 font-family: "Schabo";
-font-size: 33px;
+font-size: px;
 font-weight: lighter;
 }
 
@@ -548,6 +550,8 @@ transform-origin: bottom;
 }
 }
 
+@media screen and (min-width: 2650px) {
 
+}
 
 
