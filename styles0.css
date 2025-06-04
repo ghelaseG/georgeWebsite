@@ -1031,7 +1031,7 @@ transform-origin: bottom;
         transform: scale(2);
         max-width: 100%;
         max-height: 90%;
-        top: calc(75% - 90px);
+        top: calc(75% - 70px);
         will-change: transform;
         justify-content: center;
         object-fit: cover;
