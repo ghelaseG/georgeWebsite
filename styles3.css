@@ -132,7 +132,7 @@ nav {
 
 .project-img {
   position: absolute;
-  left: 1em;
+  left: 5em;
   bottom: 1em;
   width: 75%;
   height: 45%;
@@ -543,4 +543,35 @@ height: 120px;
       top: 90%;
   }
 
+}
+
+@media (max-width: 1400px){
+  .project-img {
+    position: absolute;
+    left: 20em;
+    bottom: 1em;
+    width: 45%;
+    height: 25%;
+    overflow: hidden;
+    will-change: transform;
+    box-shadow: 10px 5px 5px;
+    /* backdrop-filter: blur(220px);*/
+    border-radius: 32px;
+  }
+}
+
+
+@media (max-width: 1100px){
+  .project-img {
+    position: absolute;
+    left: 28em;
+    bottom: 1em;
+    width: 25%;
+    height: 25%;
+    overflow: hidden;
+    will-change: transform;
+    box-shadow: 10px 5px 5px;
+    /* backdrop-filter: blur(220px);*/
+    border-radius: 32px;
+  }
 }
