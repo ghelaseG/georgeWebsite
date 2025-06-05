@@ -677,7 +677,7 @@ transform-origin: bottom;
         /* full-width: 140%; */
         justify-content: center;
         align-items: center;
-        width: 140px;
+        width: 120px;
         height: 200px;
         object-fit: cover;
     }
@@ -686,11 +686,11 @@ transform-origin: bottom;
         position: fixed;
         top: 50%;
         left: 50%;
-        transform: translate(-40%, -50%) scale(1);
-        width: 180vw;
-        height: 90vh;
+        transform: translate(-50%, -50%) scale(1);
+        width: 160vw;
+        height: 100vh;
         display: flex;
-        gap: 9em;
+        gap: 4em;
         box-shadow: #e1dedc;
     }
 
@@ -706,7 +706,7 @@ transform-origin: bottom;
         height: 100%;
         display: flex;
         flex-direction: column;
-        gap: 3em;
+        gap: 4em;
         will-change: transform;
         box-shadow: #000000;
     }
@@ -714,12 +714,7 @@ transform-origin: bottom;
     .img.main img {
         position: relative;
         transform: scale(2);
-        max-width: 120%;
-        max-height: 70%;
-        top: calc(55% - 90px);
         will-change: transform;
-        justify-content: center;
-        object-fit: cover;
     }
 
 }
