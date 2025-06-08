@@ -26,7 +26,7 @@ Inspired by:
 - **ColourGradient**(https://cssgradient.io/) - This tool lets you create free gradient backgrounds for your website.
 - **Spline**(https://spline.design/) - This website is great to build / use 3d or 2d objects.
 - **Pixabay**(https://pixabay.com/) - Royalty-free images, videos, audio and other media.
-- **ReadmeTools**(https://github.com/othneildrew/Best-README-Template/blob/main/README.md)[ReadmeSO]((https://readme.so/)) - This are just a few examples among many tools available for creating a well-crafted README file.
+- **ReadmeTools**(https://readme.so/) - Here is one example among many tools available for creating a well-structured README file.
 - **Canva**(https://www.canva.com/) - Great website for online graphic design.
 - **QrCode**(https://www.qrcode-monkey.com/#mecard) - QRCode builder tool.
 - **GIFMaker**(https://ezgif.com/) - GIF/MP4(...) tool.
