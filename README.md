@@ -16,6 +16,9 @@ Inspired by:
 - [True Coder](https://www.youtube.com/@TrueCoder)
 - [CodeGrid](https://www.youtube.com/@codegrid)
 - [Awards Webiste](https://www.awwwards.com/websites/)
+- [StackSorted](https://stacksorted.com/scroll-effects)
+- [JavaScriptMastery](https://www.youtube.com/@javascriptmastery)
+- [GodlyWebsite](https://godly.website/)
 
 
 ## Tools / References
@@ -34,6 +37,15 @@ Inspired by:
 - **Lenis**(https://github.com/darkroomengineering/lenis?tab=readme-ov-file#license) - A lightweight, robust, and performant smooth scroll library.
 - **GSAP**(https://gsap.com/) - Allows you to effortlessly animate anything.
 - **W3Schools**(https://www.w3schools.com/css/default.asp) - Educational website for learning web development and coding.
+- **LocomotiveScrolling**(https://github.com/locomotivemtl/locomotive-scroll) - Detection of elements in viewport & smooth scrolling with parallax effects.
+- **Scrollytelling**(https://flourish.studio/blog/no-code-scrollytelling/) - Elements on a webpage appear, move, disappear, or otherwise change as the user scrolls the page.
+- **React**(https://r3f.docs.pmnd.rs/getting-started/introduction) - Maybe I can use this tool in the future.
+- **Fonts**(https://fonts.google.com/) - Google fonts.
+- **ImageResizer**(https://www.simpleimageresizer.com/) - Resize photos and images online.
+- **WebsiteDebugger**(https://validator.w3.org/) - Check website for errors.
+- **CSSTricks**(https://css-tricks.com/) - You can get a lot of ideas from here.
+- **CodePen**(https://codepen.io/marduklien/pen/MdvdEG) - One example of scrollytelling.
+- **CDNJs**(https://cdnjs.com/libraries) - Great for using libraries.
 
 
 ## License
