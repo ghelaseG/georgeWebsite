@@ -46,7 +46,7 @@ Inspired by:
 - **CSSTricks**(https://css-tricks.com/) - You can get a lot of ideas from here.
 - **CodePen**(https://codepen.io/marduklien/pen/MdvdEG) - One example of scrollytelling.
 - **CDNJs**(https://cdnjs.com/libraries) - Great for using libraries.
-
+- **BackgroundRemover**(https://www.remove.bg/) - Remove Background.
 
 ## License
 
