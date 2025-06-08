@@ -21,7 +21,7 @@ Inspired by:
 ## Tools / References
 
 - **HTML5** - For structuring the content and creating the layout of the web pages.
-- **CSS3**(https://developer.mozilla.org/en-US/docs/Web/CSS)(https://www.w3schools.com/css/default.asp) - To enhance the visual appearance and provide styling options, ensuring a responsive design.
+- **CSS3**((https://developer.mozilla.org/en-US/docs/Web/CSS))((https://www.w3schools.com/css/default.asp)) - To enhance the visual appearance and provide styling options, ensuring a responsive design.
 - **JavaScript** - To add interactivity and dynamic features, improving user experience.
 - **ColourGradient**(https://cssgradient.io/) - This tool lets you create free gradient backgrounds for your website.
 - **Spline**(https://spline.design/) - This website is great to build / use 3d or 2d objects.
