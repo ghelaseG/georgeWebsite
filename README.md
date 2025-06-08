@@ -79,7 +79,7 @@
 </details>
 
  <video loop src="./screenshot/website.mp4">  video </video> 
-
+![demo video](./screenshot/website.mp4)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
