@@ -80,6 +80,7 @@
 
  <video loop src="./screenshot/website.mp4">  video </video> 
 ![demo video](./screenshot/website.mp4)
+![demo video](./screenshot/website.gif)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
