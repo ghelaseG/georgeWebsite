@@ -1045,3 +1045,96 @@ transform: none;
         z-index: -10000;
     }
 }
+
+@media screen and (max-width: 1600px) {
+    .lion {
+        position: absolute;
+        z-index: 18;
+        width: 515px;
+        top: calc(50% + 111.5px);
+        left: calc(50% - 601px);
+        transform: translate(-50%, -10%);
+    }
+    .robot-3d {
+        position: absolute;
+        z-index: 5;
+        top: 10%;
+        width: 100%;
+        height: 100%;
+        transform: translate(-8%, 2%);
+        pointer-events: all;
+    }
+    .bg-img {
+        position: absolute;
+        width: 1600px;
+        background-size: cover;
+        top: calc(82.5% - 690px);
+        left: calc(50% + 10px);
+        transform: translate(-50%, -20%);
+        z-index: -21;
+    }
+    .big-ben {
+        position: absolute;
+        z-index: 3;
+        width: 622px;
+        top: calc(30% + 269px);
+        left: calc(30% - 810px);
+        transform: translate(40%, -50%);
+    }
+    .queen-victoria {
+        position: absolute;
+        z-index: 7;
+        width: 500px;
+        top: calc(45% + 136px);
+        left: calc(50% - 202px);
+        transform: translate(-50%, -50%);
+    }
+    .signage-buckingham {
+        position: absolute;
+        z-index: 5;
+        width: 417px;
+        top: calc(45% + 221px);
+        left: calc(63% - 381.5px);
+        transform: translate(40%, -20%);
+    }
+    .churchill {
+        position: absolute;
+        z-index: 8;
+        width: 615px;
+        top: calc(50% + 134px);
+        left: calc(49% + 405px);
+        transform: translate(-50%, -50%);
+    }
+    .telephone {
+        position: absolute;
+        z-index: 1;
+        width: 983.5px;
+        top: calc(60% + 86.5px);
+        left: calc(60% + 590px);
+        transform: translate(-40%, -50%);
+    }
+    .signage-underground {
+        position: absolute;
+        z-index: 1;
+        width: 1092px;
+        top: calc(65% + 69px);
+        left: calc(58% + 230px);
+        transform: translate(-50%, -50%);
+    }
+    .fog-6 {
+        position: absolute;
+        z-index: 4;
+        width: 1610px;
+        top: calc(50% + 85px);
+        left: calc(50% + 10px);
+        transform: translate(-50%, -50%);
+    }
+    .london-eye {
+        position: absolute;
+        z-index: 1;
+        width: 1200px;
+        top: calc(50% - 100px);
+        left: calc(35% + 300px);
+        transform: translate(-50%, -50%);
+    }
+}
