@@ -6,3 +6,5 @@ some examples to use navbar dropdown:
 https://www.w3schools.com/howto/howto_js_dropdown.asp
 https://www.youtube.com/watch?v=dmFC1e_CUAQ&ab_channel=Devression
 
+split this section into 2: stakeholder projects and personal projects
+
