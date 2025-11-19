@@ -1,10 +1,2 @@
-Once I created some projects, I'll use a dropdown navbar:
 
-projects similar to https://flourish.studio/blog/no-code-scrollytelling/ (the future of immersive data storytelling)
-
-some examples to use navbar dropdown:
-https://www.w3schools.com/howto/howto_js_dropdown.asp
-https://www.youtube.com/watch?v=dmFC1e_CUAQ&ab_channel=Devression
-
-split this section into 2: stakeholder projects and personal projects
 
